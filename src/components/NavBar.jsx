@@ -10,7 +10,7 @@ export default function NavBar() {
     <nav className="fixed top-0 w-full z-50 bg-brand-navy/90 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="text-white font-extrabold text-2xl tracking-tighter italic">
+          <span className="text-white font-extrabold text-2xl tracking-tighter italic uppercase">
             Inter<span className="text-brand-orange">Bic</span>
           </span>
         </div>

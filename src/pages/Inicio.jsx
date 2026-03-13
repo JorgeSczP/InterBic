@@ -15,13 +15,11 @@ export default function Inicio() {
         </div>
         <div class="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
           <div class="text-white">
-            <h2 class="text-brand-orange font-bold tracking-widest uppercase mb-4 text-sm md:text-base">
-              InterBic 2026
+            <h2 class="font-bold tracking-widest uppercase mb-4 text-sm md:text-base">
+              Inter<span className="text-brand-orange">Bic</span> 2026
             </h2>
             <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
-              Encuentro Estatal de Estudiantes
-              {/* Donde el <span class="italic">Talento</span> se une al{" "}
-              <span class="text-brand-orange">Esfuerzo</span>. */}
+              Encuentro Estatal de Estudiantes Originarios
             </h1>
             <p class="text-lg md:text-xl text-white/70 mb-10 max-w-xl leading-relaxed">
               Vive la experiencia definitiva en la intersección de la destreza
@@ -38,7 +36,7 @@ export default function Inicio() {
                 class="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold border border-white/20 rounded-xl text-center hover:bg-white/20 transition-all"
                 href="#disciplinas"
               >
-                Ver Diciplinas
+                Ver Disciplinas
               </a>
             </div>
           </div>
@@ -46,25 +44,25 @@ export default function Inicio() {
             <div class="relative w-full h-full">
               <div class="absolute left-0 top-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-brand-orange/30 -rotate-6 z-20">
                 <img
-                  alt="Sports Action"
+                  alt="Deportiva"
                   class="w-full h-full object-cover"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFdDHnpizlPFS11QMNrDlMsCv2ct-E2N_TgO82LJkT0Lln8pu4wxs7o0BnPGjGzj9Ms6q1Mt96626riOJBXfUgMDBV0w1CkQK8-4pIQPA23PeioOmXZoqJjF6mbE1LJKQmoVhmR0myTStrd4ti7zjqutKc9MQVUoylO0PjsLNV_Yw2JXcqSL8tO3M7HejyTsEo8qHzEu8kXgJQJnYqP4fGxuqfmT7h9FxF30gqZfXsoWcEjnkLdkWVkWOi3MU0N7YJGSiwSRUHsBsa"
+                  src="/IMG/deportiva.webp"
                 />
                 <div class="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6">
                   <span class="text-2xl font-black text-white italic">
-                    FÍSICO
+                    Deportiva
                   </span>
                 </div>
               </div>
               <div class="absolute right-0 bottom-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-white/20 rotate-6 z-10">
                 <img
-                  alt="Academic Excellence"
+                  alt="Academica"
                   class="w-full h-full object-cover grayscale-[0.5]"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9xOnpjw1XcGZ_-z-lHNMC4s5vq721izVVrAMlw4kDFJAUxkPyDOKTJBPP2MEt7i8K6QqcCpQOnyVn_ZWWyxEisM_IHTSKDjvJexDxrkcELCZF1_sF4jKqcqWe0Mx0DS2bYiCXXvwwHc1E6h0xtjU4RPiOnCXHf7KSLzTWfVqvQl_W0t7NUeGPx5mUXrSsQuW9WSv_OgEJwg7WR7TfPq3VeegSoP6aKgDwrbmN-7pjSObAyFFepP3Xp8UkMi5TTMdRR-i-iXfk3y0"
+                  src="/IMG/adademica.webp"
                 />
                 <div class="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6 justify-end">
                   <span class="text-2xl font-black text-white italic">
-                    MENTAL
+                    Academica
                   </span>
                 </div>
               </div>
@@ -106,7 +104,7 @@ export default function Inicio() {
                   ></path>
                 </svg>
               </div>
-              <h4 class="text-2xl font-bold mb-4">Potencia Atlética</h4>
+              <h4 class="text-2xl font-bold mb-4">Basquetbol</h4>
               <p class="text-slate-600 leading-relaxed">
                 Fomentamos la disciplina, el trabajo en equipo y la superación
                 personal a través de competencias deportivas de alto rendimiento
@@ -130,7 +128,7 @@ export default function Inicio() {
                   ></path>
                 </svg>
               </div>
-              <h4 class="text-2xl font-bold mb-4">Brillantez Intelectual</h4>
+              <h4 class="text-2xl font-bold mb-4">Futbol</h4>
               <p class="text-slate-600 leading-relaxed">
                 Desafiamos las mentes más agudas en escenarios de resolución de
                 problemas, oratoria y ciencias, premiando el pensamiento crítico
