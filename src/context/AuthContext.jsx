@@ -1,16 +1,29 @@
 import React, { createContext, useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import { supabase } from "../api/supabase";
 
 export const AuthContext = createContext();
 export default function AuthContextP({ children }) {
-  
-  const [user, setUser] = useState(() => {
-    const username = null;
-    return username;
-  });
+  const [user, setUser] = useState(null);
 
-  const [rol, setRol] = useState({});
+  useEffect(() => {
+    const loadUser = async () => {
+      const { data } = await supabase.auth.getSession();
+      setUser(data.session?.user ?? null);
+    };
+
+    loadUser();
+    const { data: listener } = supabase.auth.onAuthStateChange(
+      (event, session) => {
+        setUser(session?.user ?? null);
+      },
+    );
+
+    return () => {
+      listener.subscription.unsubscribe();
+    };
+  }, []);
 
   const navigate = useNavigate();
 
@@ -18,62 +31,18 @@ export default function AuthContextP({ children }) {
     if (!user) return;
   }, []);
 
-  const login = async (user) => {
-    // try {
-    //   const rest = await axios.post(
-    //     `${Url}api/token/`,
-    //     {
-    //       username: user.username,
-    //       password: user.password,
-    //     },
-    //     {
-    //       withCredentials: true,
-    //     },
-    //   );
-    //   // Guardar en cookies con expiración de 1 hora
-    //   Cookies.set("user", rest.data.username, { expires: 1 }); // 1 hora
-    //   Cookies.set("access", rest.data.access, { expires: 1 });
-    //   setUser(rest.data.username);
-    //   setRol(rest.data.rol);
-    //   navigate("/home");
-    // } catch (error) {
-    //   toast.error(
-    //     <div>
-    //       <strong>Error de autenticación</strong>
-    //       <p>Usuario o contraseña incorrecta</p>
-    //     </div>,
-    //     {
-    //       position: "top-right",
-    //       autoClose: 3000,
-    //       className: "bg-red-300",
-    //     },
-    //   );
-    //   console.error(
-    //     "Error:",
-    //     error.response ? error.response.data : error.message,
-    //   );
-    // }
+  const login = async (email, password) => {
+    const { data, error } = await supabase.auth.signInWithPassword({
+      email,
+      password,
+    });
+
+    if (error) throw new Error(error.message);
+    setUser(data.user);
+    navigate("/");
   };
 
-  const logout = async () => {
-    // try {
-    //   await axios.post(
-    //     `${Url}logout/`,
-    //     {},
-    //     {
-    //       withCredentials: true,
-    //     },
-    //   );
-    //   Cookies.remove("user");
-    //   Cookies.remove("access");
-
-    //   setUser(null);
-    //   navigate("/");
-    // } catch (error) {
-    //   console.error("Error cerrando sesión", error);
-    // }
-  };
-
+  const logout = async () => {};
 
   return (
     <AuthContext.Provider value={{ user, login, logout }}>

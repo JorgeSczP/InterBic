@@ -4,8 +4,11 @@ import {
   crearEstudianteConResponsable,
 } from "../service/Estudiante";
 import { planteles } from "../utils/planteles";
+import { useNavigate } from "react-router-dom";
 
 export default function FormRegistro() {
+  const navigate = useNavigate();
+
   const [estudiante, setEstudiante] = useState({
     nombre: "",
     apellido_p: "",
@@ -19,6 +22,7 @@ export default function FormRegistro() {
     plantel_id: "",
     nss: "",
   });
+
 
   const [responsable, setResponsable] = useState({
     nombre: "",
@@ -96,6 +100,7 @@ export default function FormRegistro() {
     try {
       await crearEstudianteConResponsable(data, responsable);
       alert("Estudiante registrado correctamente");
+      navigate("/")
     } catch (error) {
       alert("Error: " + error.message);
     }

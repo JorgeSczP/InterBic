@@ -1,7 +1,11 @@
 import React from "react";
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { AuthContext } from "../context/AuthContext";
 
 export default function NavBar() {
+  const { user } = useContext(AuthContext);
+
   return (
     <nav className="fixed top-0 w-full z-50 bg-brand-navy/90 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
@@ -26,7 +30,16 @@ export default function NavBar() {
           >
             Registro de Estudiantes
           </NavLink>
+          {user && (
+            <NavLink
+              to="/estudiantes/registrados"
+              className="hover:text-brand-orange transition-colors"
+            >
+              Estudiantes Registrados
+            </NavLink>
+          )}
         </div>
+
         <button aria-label="Menu" class="md:hidden text-white">
           <svg
             className="h-6 w-6"

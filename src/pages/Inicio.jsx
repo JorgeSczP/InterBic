@@ -38,31 +38,31 @@ export default function Inicio() {
                 class="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold border border-white/20 rounded-xl text-center hover:bg-white/20 transition-all"
                 href="#disciplinas"
               >
-                Ver Categorías
+                Ver Diciplinas
               </a>
             </div>
           </div>
-          <div class="hidden lg:flex relative h-[600px] w-full items-center justify-center">
+          <div class="hidden lg:flex relative h-150 w-full items-center justify-center">
             <div class="relative w-full h-full">
-              <div class="absolute left-0 top-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-brand-orange/30 rotate-[-6deg] z-20">
+              <div class="absolute left-0 top-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-brand-orange/30 -rotate-6 z-20">
                 <img
                   alt="Sports Action"
                   class="w-full h-full object-cover"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFdDHnpizlPFS11QMNrDlMsCv2ct-E2N_TgO82LJkT0Lln8pu4wxs7o0BnPGjGzj9Ms6q1Mt96626riOJBXfUgMDBV0w1CkQK8-4pIQPA23PeioOmXZoqJjF6mbE1LJKQmoVhmR0myTStrd4ti7zjqutKc9MQVUoylO0PjsLNV_Yw2JXcqSL8tO3M7HejyTsEo8qHzEu8kXgJQJnYqP4fGxuqfmT7h9FxF30gqZfXsoWcEjnkLdkWVkWOi3MU0N7YJGSiwSRUHsBsa"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-transparent flex items-end p-6">
+                <div class="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6">
                   <span class="text-2xl font-black text-white italic">
                     FÍSICO
                   </span>
                 </div>
               </div>
-              <div class="absolute right-0 bottom-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-white/20 rotate-[6deg] z-10">
+              <div class="absolute right-0 bottom-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-white/20 rotate-6 z-10">
                 <img
                   alt="Academic Excellence"
                   class="w-full h-full object-cover grayscale-[0.5]"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ9xOnpjw1XcGZ_-z-lHNMC4s5vq721izVVrAMlw4kDFJAUxkPyDOKTJBPP2MEt7i8K6QqcCpQOnyVn_ZWWyxEisM_IHTSKDjvJexDxrkcELCZF1_sF4jKqcqWe0Mx0DS2bYiCXXvwwHc1E6h0xtjU4RPiOnCXHf7KSLzTWfVqvQl_W0t7NUeGPx5mUXrSsQuW9WSv_OgEJwg7WR7TfPq3VeegSoP6aKgDwrbmN-7pjSObAyFFepP3Xp8UkMi5TTMdRR-i-iXfk3y0"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy/80 to-transparent flex items-end p-6 justify-end">
+                <div class="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6 justify-end">
                   <span class="text-2xl font-black text-white italic">
                     MENTAL
                   </span>
