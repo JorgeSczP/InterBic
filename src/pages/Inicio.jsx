@@ -104,7 +104,7 @@ export default function Inicio() {
                   ></path>
                 </svg>
               </div>
-              <h4 class="text-2xl font-bold mb-4">Basquetbol</h4>
+              <h4 class="text-2xl font-bold mb-4">Deportiva</h4>
               <p class="text-slate-600 leading-relaxed">
                 Fomentamos la disciplina, el trabajo en equipo y la superación
                 personal a través de competencias deportivas de alto rendimiento
@@ -128,7 +128,7 @@ export default function Inicio() {
                   ></path>
                 </svg>
               </div>
-              <h4 class="text-2xl font-bold mb-4">Futbol</h4>
+              <h4 class="text-2xl font-bold mb-4">Academica</h4>
               <p class="text-slate-600 leading-relaxed">
                 Desafiamos las mentes más agudas en escenarios de resolución de
                 problemas, oratoria y ciencias, premiando el pensamiento crítico
@@ -139,7 +139,7 @@ export default function Inicio() {
         </div>
       </section>
 
-      {/* <section
+      <section
         class="py-24 bg-brand-darker overflow-hidden"
         data-purpose="disciplines-showcase"
         id="disciplinas"
@@ -148,20 +148,9 @@ export default function Inicio() {
           <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
               <h2 class="text-4xl md:text-5xl font-black text-white mb-4">
-                Explora el <span class="text-brand-orange">Programa</span>
+                Disciplinas
               </h2>
-              <p class="text-white/60 max-w-xl text-lg">
-                Múltiples categorías diseñadas para que cada estudiante
-                encuentre su espacio para destacar.
-              </p>
-            </div>
-            <div class="flex gap-4">
-              <div class="px-6 py-2 bg-white/5 border border-white/10 rounded-full text-white text-sm font-semibold italic">
-                8 Deportes
-              </div>
-              <div class="px-6 py-2 bg-white/5 border border-white/10 rounded-full text-white text-sm font-semibold italic">
-                12 Académicos
-              </div>
+              <p class="text-white/60 max-w-xl text-lg"></p>
             </div>
           </div>
           <div class="mb-12">
@@ -169,20 +158,35 @@ export default function Inicio() {
               <span class="w-8 h-[2px] bg-brand-orange"></span> Deportes
             </h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div
-                class="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer"
-                data-purpose="discipline-card"
-              >
+              <div className="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer">
                 <img
                   alt="Soccer"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbH7NcE36cDkWfrtBf0jdS53LvN3exM2ccSkzhGYu1ebKdgN8G3iM7Dcl4c0539O-r1cpe-UYNkT3CFlvVD8yWHd-yL-uAwoNafIjW0RX-PriIAbvU2vQ7ehYkPEbr0GNyCeUQ4y5eYJ2GmNSnF5XN4xBwO8A1kU5orwA91v9Lb4G7o4V6rjayGNfVXYt69khHjRj25pPEKzUZ9I_qHSZqAxgXbJOqww7nLCEbJxmiwnSFynQXnuR4P_BeG6tvbcCFX1lBpI0JZPsN"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy to-transparent opacity-90"></div>
-                <div class="absolute bottom-0 left-0 p-8">
-                  <h5 class="text-2xl font-bold text-white mb-2">Fútbol</h5>
-                  <p class="text-white/70 text-sm">
+                <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
+
+                {/* Texto siempre visible */}
+                <div className="absolute bottom-0 left-0 p-8">
+                  <h5 className="text-2xl font-bold text-white mb-2">Fútbol</h5>
+                  <p className="text-white/70 text-sm">
                     Torneo Masculino y Femenino
+                  </p>
+                </div>
+
+                {/* Texto que aparece en hover */}
+                <div
+                  className="absolute inset-0 flex items-center justify-center
+                  bg-brand-navy/95
+                  opacity-0 group-hover:opacity-100
+                  transition-opacity duration-300"
+                >
+                  <p className="text-white text-center px-6 text-sm">
+                    ● La cantidad de estudiantes se sugiere se limite a nueve
+                    (9): siete jugadores en cancha (incluyendo al portero) y dos
+                    suplentes, dado que así será para la etapa ESTATAL, quedando
+                    a consideración de la región incrementar la participación
+                    dependiendo del contexto.
                   </p>
                 </div>
               </div>
@@ -212,7 +216,9 @@ export default function Inicio() {
                 />
                 <div class="absolute inset-0 bg-gradient-to-t from-brand-navy to-transparent opacity-90"></div>
                 <div class="absolute bottom-0 left-0 p-8">
-                  <h5 class="text-2xl font-bold text-white mb-2">Atletismo</h5>
+                  <h5 class="text-2xl font-bold text-white mb-2">
+                    Resistenvia y Velocidad
+                  </h5>
                   <p class="text-white/70 text-sm">Pista y Campo</p>
                 </div>
               </div>
@@ -220,7 +226,7 @@ export default function Inicio() {
           </div>
           <div>
             <h3 class="text-brand-orange font-bold text-xl mb-8 flex items-center gap-4">
-              <span class="w-8 h-[2px] bg-brand-orange"></span> Academia
+              <span class="w-8 h-[2px] bg-brand-orange"></span>
             </h3>
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div class="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
@@ -242,7 +248,7 @@ export default function Inicio() {
                     </svg>
                   </div>
                   <h5 class="text-2xl font-bold text-white mb-3">
-                    Matemáticas
+                    Reality Academica
                   </h5>
                   <p class="text-white/50 text-sm leading-relaxed">
                     Olimpiada de cálculo y lógica computacional para nivel
@@ -288,55 +294,12 @@ export default function Inicio() {
                       ></path>
                     </svg>
                   </div>
-                  <h5 class="text-2xl font-bold text-white mb-3">Ciencias</h5>
+                  <h5 class="text-2xl font-bold text-white mb-3">
+                    Proyectos Escolares
+                  </h5>
                   <p class="text-white/50 text-sm leading-relaxed">
                     Feria de experimentación e innovación tecnológica
                     institucional.
-                  </p>
-                </div>
-                <a
-                  class="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
-                  href="#"
-                >
-                  Ver detalles{" "}
-                  <svg
-                    class="h-4 w-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    ></path>
-                  </svg>
-                </a>
-              </div>
-              <div class="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
-                <div>
-                  <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
-                    <svg
-                      class="h-6 w-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewbox="0 0 24 24"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      ></path>
-                    </svg>
-                  </div>
-                  <h5 class="text-2xl font-bold text-white mb-3">Debate</h5>
-                  <p class="text-white/50 text-sm leading-relaxed">
-                    Concurso de oratoria y argumentación sobre temas de impacto
-                    global.
                   </p>
                 </div>
                 <a
@@ -364,7 +327,7 @@ export default function Inicio() {
           </div>
         </div>
       </section>
-
+      {/*
       <section
         class="py-24 relative overflow-hidden"
         data-purpose="registration-cta"
