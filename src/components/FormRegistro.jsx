@@ -25,6 +25,8 @@ export default function FormRegistro() {
     telefono: "",
   });
 
+  const [errores, setErrores] = useState({});
+
   const CAMPOS_MAYUSCULAS = ["nombre", "apellido_p", "apellido_m", "curp"];
 
   const CAMPOS_MAYUSCULAS_RESPONSABLE = ["nombre"];
@@ -47,8 +49,41 @@ export default function FormRegistro() {
     });
   };
 
+  const validar = () => {
+    const nuevosErrores = {};
+
+    // Estudiante
+    if (!estudiante.nombre.trim())
+      nuevosErrores.nombre = "El nombre es obligatorio";
+    if (!estudiante.apellido_p.trim())
+      nuevosErrores.apellido_p = "El apellido paterno es obligatorio";
+    if (!estudiante.curp.trim()) nuevosErrores.curp = "La CURP es obligatoria";
+    else if (estudiante.curp.length !== 18)
+      nuevosErrores.curp = "La CURP debe tener 18 caracteres";
+    if (!estudiante.semestre) nuevosErrores.semestre = "Selecciona un semestre";
+    if (!estudiante.nss) nuevosErrores.nss = "El N.S.S. es obligatorio";
+    if (!estudiante.tipo_sangre)
+      nuevosErrores.tipo_sangre = "Selecciona el tipo de sangre";
+    if (!estudiante.disciplina_id)
+      nuevosErrores.disciplina_id = "Selecciona una disciplina";
+    if (!estudiante.plantel_id)
+      nuevosErrores.plantel_id = "Selecciona un plantel";
+
+    // Responsable
+    if (!responsable.nombre.trim())
+      nuevosErrores.resp_nombre = "El nombre completo es obligatorio";
+    if (!responsable.telefono.trim())
+      nuevosErrores.resp_telefono = "El teléfono es obligatorio";
+    else if (responsable.telefono.length !== 10)
+      nuevosErrores.resp_telefono = "El teléfono debe tener 10 dígitos";
+
+    setErrores(nuevosErrores);
+    return Object.keys(nuevosErrores).length === 0;
+  };
+
   const onSubmit = async (e) => {
     e.preventDefault();
+    if (!validar()) return;
     const letraSexo = estudiante.curp[10]?.toUpperCase();
 
     const data = {
@@ -58,8 +93,6 @@ export default function FormRegistro() {
       sexo: letraSexo,
     };
 
-    console.log(data)
-    console.log(responsable)
     try {
       await crearEstudianteConResponsable(data, responsable);
       alert("Estudiante registrado correctamente");
@@ -84,8 +117,10 @@ export default function FormRegistro() {
             value={estudiante.nombre}
             onChange={onChange}
             className="h-9 rounded-lg border-2 px-2 uppercase"
-            required
           />
+          {errores.nombre && (
+            <span className="text-red-500 text-sm mt-1">{errores.nombre}</span>
+          )}
         </div>
 
         <div className="flex flex-col mb-3">
@@ -96,8 +131,12 @@ export default function FormRegistro() {
             value={estudiante.apellido_p}
             onChange={onChange}
             className="h-9 rounded-lg border-2 px-2 uppercase"
-            required
           />
+          {errores.apellido_p && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.apellido_p}
+            </span>
+          )}
         </div>
 
         <div className="flex flex-col mb-3">
@@ -121,6 +160,9 @@ export default function FormRegistro() {
             className="h-9 rounded-lg border-2 px-2 uppercase"
             maxLength={18}
           />
+          {errores.curp && (
+            <span className="text-red-500 text-sm mt-1">{errores.curp}</span>
+          )}
         </div>
 
         <div className="flex flex-col mb-3">
@@ -138,6 +180,11 @@ export default function FormRegistro() {
               </option>
             ))}
           </select>
+          {errores.semestre && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.semestre}
+            </span>
+          )}
         </div>
         <div className="flex flex-col mb-3">
           <label>N.S.S</label>
@@ -148,6 +195,9 @@ export default function FormRegistro() {
             onChange={onChange}
             className="h-9 rounded-lg border-2 px-2 uppercase"
           />
+          {errores.nss && (
+            <span className="text-red-500 text-sm mt-1">{errores.nss}</span>
+          )}
         </div>
         <div className="flex flex-col mb-3">
           <label>Tipo de Sangre</label>
@@ -164,6 +214,11 @@ export default function FormRegistro() {
               </option>
             ))}
           </select>
+          {errores.tipo_sangre && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.tipo_sangre}
+            </span>
+          )}
         </div>
 
         <div className="flex flex-col mb-3">
@@ -192,6 +247,11 @@ export default function FormRegistro() {
             <option value="5">Resistencia</option>
             <option value="6">Velocidad</option>
           </select>
+          {errores.disciplina_id && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.disciplina_id}
+            </span>
+          )}
         </div>
 
         <div className="flex flex-col mb-4">
@@ -209,6 +269,11 @@ export default function FormRegistro() {
               </option>
             ))}
           </select>
+          {errores.plantel_id && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.plantel_id}
+            </span>
+          )}
         </div>
 
         {/* ── DATOS DEL RESPONSABLE PARA CASOS DE EMERGENCIA── */}
@@ -224,8 +289,12 @@ export default function FormRegistro() {
             value={responsable.nombre}
             onChange={onChangeResponsable}
             className="h-9 rounded-lg border-2 px-2 uppercase"
-            required
           />
+          {errores.resp_nombre && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.resp_nombre}
+            </span>
+          )}
         </div>
 
         <div className="flex flex-col mb-3">
@@ -237,8 +306,12 @@ export default function FormRegistro() {
             onChange={onChangeResponsable}
             className="h-9 rounded-lg border-2 px-2"
             maxLength={10}
-            required
           />
+          {errores.resp_telefono && (
+            <span className="text-red-500 text-sm mt-1">
+              {errores.resp_telefono}
+            </span>
+          )}
         </div>
 
         <div className="flex justify-between">
