@@ -22,8 +22,9 @@ export default function Inicio() {
               Encuentro Estatal de Estudiantes Originarios
             </h1>
             <p className="text-lg md:text-xl text-white/70 mb-10 max-w-xl leading-relaxed">
-              Vive la experiencia definitiva en la intersección de la destreza
-              física y la agudeza intelectual
+              Vive un encuentro académico y deportivo donde estudiantes
+              originarios comparten, compiten y destacan sus habilidades y
+              talentos.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <NavLink
@@ -78,8 +79,7 @@ export default function Inicio() {
       >
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-20">
-            <h3 className="text-brand-orange font-bold uppercase tracking-tighter text-sm mb-2">
-            </h3>
+            <h3 className="text-brand-orange font-bold uppercase tracking-tighter text-sm mb-2"></h3>
             <h2 className="text-4xl md:text-5xl font-extrabold text-brand-navy">
               Doble Desafío
             </h2>
@@ -105,9 +105,9 @@ export default function Inicio() {
               </div>
               <h4 className="text-2xl font-bold mb-4">Deportiva</h4>
               <p className="text-slate-600 leading-relaxed">
-                Fomentamos la disciplina, el trabajo en equipo y la superación
-                personal a través de competencias deportivas de alto rendimiento
-                diseñadas para forjar el carácter.
+                Participa en disciplinas como fútbol, básquetbol, voleibol,
+                resistencia y velocidad. Vive el deporte como un espacio de
+                superación y convivencia
               </p>
             </div>
             <div className="group p-10 bg-brand-light rounded-3xl border border-slate-200 hover:border-brand-navy/30 transition-all duration-300">
@@ -129,9 +129,9 @@ export default function Inicio() {
               </div>
               <h4 className="text-2xl font-bold mb-4">Academica</h4>
               <p className="text-slate-600 leading-relaxed">
-                Desafiamos las mentes más agudas en escenarios de resolución de
-                problemas, oratoria y ciencias, premiando el pensamiento crítico
-                y la innovación.
+                Pon a prueba tu talento en retos de resolución de problemas,
+                ciencias y tecnología. Demuestra tu pensamiento y análisis
+                crítico. Destaca mientras compartes ideas y experiencias.
               </p>
             </div>
           </div>
@@ -179,11 +179,8 @@ export default function Inicio() {
                   transition-opacity duration-300"
                 >
                   <p className="text-white text-center px-6 text-sm">
-                    ● La cantidad de estudiantes se sugiere se limite a nueve
-                    (9): siete jugadores en cancha (incluyendo al portero) y dos
-                    suplentes, dado que así será para la etapa ESTATAL, quedando
-                    a consideración de la región incrementar la participación
-                    dependiendo del contexto.
+                    Registra hasta 9 estudiantes: 7 en cancha y 2 para cambios.
+                    ¡Ven con tu equipo y demuestra tu talento en cada jugada!
                   </p>
                 </div>
               </div>
@@ -209,11 +206,39 @@ export default function Inicio() {
                   transition-opacity duration-300"
                 >
                   <p className="text-white text-center px-6 text-sm">
-                    detalles
+                    Registra hasta 7 estudiantes: 5 en cancha y 2 para cambios.
+                    ¡Coordinen cada jugada y dominen la cancha!
                   </p>
                 </div>
               </div>
+              <div className="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer">
+                <img
+                  alt="Volibol"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  src="/IMG/"
+                />
+                <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
 
+                <div className="absolute bottom-0 left-0 p-8">
+                  <h5 className="text-2xl font-bold text-white mb-2">
+                    Volibol
+                  </h5>
+                  <p className="text-white/70 text-sm"></p>x|
+                </div>
+
+                <div
+                  className="absolute inset-0 flex items-center justify-center
+                  bg-brand-navy/95
+                  opacity-0 group-hover:opacity-100
+                  transition-opacity duration-300"
+                >
+                  <p className="text-white text-center px-6 text-sm">
+                    Registra hasta 8 estudiantes: 6 en cancha y 2 para cambios.
+                    Fortalezcan la coordinación y el trabajo en equipo en cada
+                    jugada.
+                  </p>
+                </div>
+              </div>
               <div className="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer">
                 <img
                   alt="Soccer"
@@ -230,13 +255,24 @@ export default function Inicio() {
                 </div>
 
                 <div
-                  className="absolute inset-0 flex items-center justify-center
+                  className="absolute inset-0 flex flex-col items-center justify-center
                   bg-brand-navy/95
                   opacity-0 group-hover:opacity-100
                   transition-opacity duration-300"
                 >
                   <p className="text-white text-center px-6 text-sm">
-                    detalles
+                    Resistencia Registra máximo 2 estudiantes (1 hombre y 1
+                    mujer).
+                  </p>
+                  <p className="text-white text-center px-6 text-sm">
+                    F- 2.5 km V- 5km ¡Demuestra tu resistencia y supera cada
+                    desafío
+                  </p>
+                  <p className="text-white text-center px-6 text-sm">
+                    Velocidad Registra máximo 2 estudiante. (1 hombre y 1 mujer)
+                  </p>
+                  <p className="text-white text-center px-6 text-sm">
+                    100 mts. ¡Explota tu rapidez y llega primero a la meta!
                   </p>
                 </div>
               </div>
@@ -266,14 +302,19 @@ export default function Inicio() {
                       ></path>
                     </svg>
                   </div>
-                  <h5 className="text-2xl font-bold text-white mb-3">Academica</h5>
-                  <p className="text-white/50 text-sm leading-relaxed">detalles</p>
+                  <h5 className="text-2xl font-bold text-white mb-3">
+                    Tejiendo el conocimiento
+                  </h5>
+                  <p className="text-white/50 text-sm leading-relaxed">
+                    - Registra hasta 4 estudiantes (2 mujeres y 2 hombres).
+                    Participan en actividades de las asignaturas del MCCEMS
+                    2024.
+                  </p>
                 </div>
                 <a
                   className="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
                   href="#"
                 >
-                  Ver detalles{" "}
                   <svg
                     className="h-4 w-4"
                     fill="none"
@@ -309,18 +350,19 @@ export default function Inicio() {
                     </svg>
                   </div>
                   <h5 className="text-2xl font-bold text-white mb-3">
-                    Proyectos Escolares
+                    Fortalece el trabajo colaborativo y la construcción del
+                    conocimiento. Tejiendo el conocimiento
                   </h5>
                   <p className="text-white/50 text-sm leading-relaxed">
-                    Feria de experimentación e innovación tecnológica
-                    institucional.
+                    - Se mantiene el mismo equipo de la fase 1. Presentan su
+                    proyecto comunitario. Consolida aprendizajes mediante la
+                    propuesta de impacto comunitario.
                   </p>
                 </div>
                 <a
                   className="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
                   href="#"
                 >
-                  Ver detalles{" "}
                   <svg
                     className="h-4 w-4"
                     fill="none"
