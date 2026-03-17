@@ -5,27 +5,27 @@ export default function Inicio() {
   return (
     <>
       <section
-        class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-navy"
+        className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-navy"
         data-purpose="hero-banner"
         id="inicio"
       >
-        <div class="absolute inset-0 z-0">
-          <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541252260730-0412e8e2108e?q=80&amp;w=2000&amp;auto=format&amp;fit=crop')] bg-cover bg-center opacity-30"></div>
-          <div class="hero-split-gradient absolute inset-0"></div>
+        <div className="absolute inset-0 z-0">
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541252260730-0412e8e2108e?q=80&amp;w=2000&amp;auto=format&amp;fit=crop')] bg-cover bg-center opacity-30"></div>
+          <div className="hero-split-gradient absolute inset-0"></div>
         </div>
-        <div class="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-          <div class="text-white">
-            <h2 class="font-bold tracking-widest uppercase mb-4 text-sm md:text-base">
+        <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
+          <div className="text-white">
+            <h2 className="font-bold tracking-widest uppercase mb-4 text-sm md:text-base">
               Inter<span className="text-brand-orange">Bic</span> 2026
             </h2>
-            <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+            <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
               Encuentro Estatal de Estudiantes Originarios
             </h1>
-            <p class="text-lg md:text-xl text-white/70 mb-10 max-w-xl leading-relaxed">
+            <p className="text-lg md:text-xl text-white/70 mb-10 max-w-xl leading-relaxed">
               Vive la experiencia definitiva en la intersección de la destreza
               física y la agudeza intelectual
             </p>
-            <div class="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <NavLink
                 to={"/registro/estudiante"}
                 className="px-8 py-4 bg-brand-orange text-white font-bold rounded-xl text-center hover:scale-105 transition-transform shadow-xl shadow-brand-orange/20"
@@ -33,35 +33,35 @@ export default function Inicio() {
                 Registro de Estudiantes
               </NavLink>
               <a
-                class="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold border border-white/20 rounded-xl text-center hover:bg-white/20 transition-all"
+                className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold border border-white/20 rounded-xl text-center hover:bg-white/20 transition-all"
                 href="#disciplinas"
               >
                 Ver Disciplinas
               </a>
             </div>
           </div>
-          <div class="hidden lg:flex relative h-150 w-full items-center justify-center">
-            <div class="relative w-full h-full">
-              <div class="absolute left-0 top-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-brand-orange/30 -rotate-6 z-20">
+          <div className="hidden lg:flex relative h-150 w-full items-center justify-center">
+            <div className="relative w-full h-full">
+              <div className="absolute left-0 top-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-brand-orange/30 -rotate-6 z-20">
                 <img
                   alt="Deportiva"
-                  class="w-full h-full object-cover"
+                  className="w-full h-full object-cover"
                   src="/IMG/deportiva.webp"
                 />
-                <div class="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6">
-                  <span class="text-2xl font-black text-white italic">
+                <div className="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6">
+                  <span className="text-2xl font-black text-white italic">
                     Deportiva
                   </span>
                 </div>
               </div>
-              <div class="absolute right-0 bottom-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-white/20 rotate-6 z-10">
+              <div className="absolute right-0 bottom-0 w-[60%] h-[80%] rounded-3xl overflow-hidden border-4 border-white/20 rotate-6 z-10">
                 <img
                   alt="Academica"
-                  class="w-full h-full object-cover grayscale-[0.5]"
+                  className="w-full h-full object-cover grayscale-[0.5]"
                   src="/IMG/adademica.webp"
                 />
-                <div class="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6 justify-end">
-                  <span class="text-2xl font-black text-white italic">
+                <div className="absolute inset-0 bg-linear-to-t from-brand-navy/80 to-transparent flex items-end p-6 justify-end">
+                  <span className="text-2xl font-black text-white italic">
                     Academica
                   </span>
                 </div>
@@ -72,25 +72,24 @@ export default function Inicio() {
       </section>
 
       <section
-        class="py-24 bg-white"
+        className="py-24 bg-white"
         data-purpose="features-section"
         id="desafio"
       >
-        <div class="max-w-7xl mx-auto px-6">
-          <div class="text-center mb-20">
-            <h3 class="text-brand-orange font-bold uppercase tracking-tighter text-sm mb-2">
-              Sinergia Pura
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="text-center mb-20">
+            <h3 className="text-brand-orange font-bold uppercase tracking-tighter text-sm mb-2">
             </h3>
-            <h2 class="text-4xl md:text-5xl font-extrabold text-brand-navy">
+            <h2 className="text-4xl md:text-5xl font-extrabold text-brand-navy">
               Doble Desafío
             </h2>
-            <div class="w-20 h-1.5 bg-brand-orange mx-auto mt-6 rounded-full"></div>
+            <div className="w-20 h-1.5 bg-brand-orange mx-auto mt-6 rounded-full"></div>
           </div>
-          <div class="grid md:grid-cols-2 gap-8">
-            <div class="group p-10 bg-brand-light rounded-3xl border border-slate-200 hover:border-brand-orange/30 transition-all duration-300">
-              <div class="w-16 h-16 bg-brand-orange/10 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="group p-10 bg-brand-light rounded-3xl border border-slate-200 hover:border-brand-orange/30 transition-all duration-300">
+              <div className="w-16 h-16 bg-brand-orange/10 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
                 <svg
-                  class="h-8 w-8 text-brand-orange"
+                  className="h-8 w-8 text-brand-orange"
                   fill="none"
                   stroke="currentColor"
                   viewbox="0 0 24 24"
@@ -104,17 +103,17 @@ export default function Inicio() {
                   ></path>
                 </svg>
               </div>
-              <h4 class="text-2xl font-bold mb-4">Deportiva</h4>
-              <p class="text-slate-600 leading-relaxed">
+              <h4 className="text-2xl font-bold mb-4">Deportiva</h4>
+              <p className="text-slate-600 leading-relaxed">
                 Fomentamos la disciplina, el trabajo en equipo y la superación
                 personal a través de competencias deportivas de alto rendimiento
                 diseñadas para forjar el carácter.
               </p>
             </div>
-            <div class="group p-10 bg-brand-light rounded-3xl border border-slate-200 hover:border-brand-navy/30 transition-all duration-300">
-              <div class="w-16 h-16 bg-brand-navy/10 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+            <div className="group p-10 bg-brand-light rounded-3xl border border-slate-200 hover:border-brand-navy/30 transition-all duration-300">
+              <div className="w-16 h-16 bg-brand-navy/10 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
                 <svg
-                  class="h-8 w-8 text-brand-navy"
+                  className="h-8 w-8 text-brand-navy"
                   fill="none"
                   stroke="currentColor"
                   viewbox="0 0 24 24"
@@ -128,8 +127,8 @@ export default function Inicio() {
                   ></path>
                 </svg>
               </div>
-              <h4 class="text-2xl font-bold mb-4">Academica</h4>
-              <p class="text-slate-600 leading-relaxed">
+              <h4 className="text-2xl font-bold mb-4">Academica</h4>
+              <p className="text-slate-600 leading-relaxed">
                 Desafiamos las mentes más agudas en escenarios de resolución de
                 problemas, oratoria y ciencias, premiando el pensamiento crítico
                 y la innovación.
@@ -140,33 +139,32 @@ export default function Inicio() {
       </section>
 
       <section
-        class="py-24 bg-brand-darker overflow-hidden"
+        className="py-24 bg-brand-darker overflow-hidden"
         data-purpose="disciplines-showcase"
         id="disciplinas"
       >
-        <div class="max-w-7xl mx-auto px-6">
-          <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+        <div className="max-w-7xl mx-auto px-6">
+          <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
             <div>
               <h2 class="text-4xl md:text-5xl font-black text-white mb-4">
                 Disciplinas
               </h2>
-              <p class="text-white/60 max-w-xl text-lg"></p>
+              <p className="text-white/60 max-w-xl text-lg"></p>
             </div>
           </div>
-          <div class="mb-12">
-            <h3 class="text-brand-orange font-bold text-xl mb-8 flex items-center gap-4">
-              <span class="w-8 h-[2px] bg-brand-orange"></span> Deportes
+          <div className="mb-12">
+            <h3 className="text-brand-orange font-bold text-xl mb-8 flex items-center gap-4">
+              <span className="w-8 h-0.5 bg-brand-orange"></span> Deportes
             </h3>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <div className="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer">
                 <img
                   alt="Soccer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbH7NcE36cDkWfrtBf0jdS53LvN3exM2ccSkzhGYu1ebKdgN8G3iM7Dcl4c0539O-r1cpe-UYNkT3CFlvVD8yWHd-yL-uAwoNafIjW0RX-PriIAbvU2vQ7ehYkPEbr0GNyCeUQ4y5eYJ2GmNSnF5XN4xBwO8A1kU5orwA91v9Lb4G7o4V6rjayGNfVXYt69khHjRj25pPEKzUZ9I_qHSZqAxgXbJOqww7nLCEbJxmiwnSFynQXnuR4P_BeG6tvbcCFX1lBpI0JZPsN"
+                  src="/IMG/fut.webp"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
 
-                {/* Texto siempre visible */}
                 <div className="absolute bottom-0 left-0 p-8">
                   <h5 className="text-2xl font-bold text-white mb-2">Fútbol</h5>
                   <p className="text-white/70 text-sm">
@@ -174,7 +172,6 @@ export default function Inicio() {
                   </p>
                 </div>
 
-                {/* Texto que aparece en hover */}
                 <div
                   className="absolute inset-0 flex items-center justify-center
                   bg-brand-navy/95
@@ -190,50 +187,72 @@ export default function Inicio() {
                   </p>
                 </div>
               </div>
-              <div
-                class="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer"
-                data-purpose="discipline-card"
-              >
+              <div className="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer">
                 <img
-                  alt="Basketball"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTO44LMQSSYehIxrN17-K9thS33nYGqBtMrICeNGmXFjwQxYOye2Ehgr9Egv6MZD_-aKbvvLY-6SC4V3fb-s3HB-MiEbOIsu_yosCxJRHCwbXkkgIBoJp10dQCBciaoSK31otS-qVGvVYN0xwr2rx3QZE-OODu-9HVRAWzkDn6PDBHGH_fhHRXGGWb1axe8AXgvTThyXep3wmMIBUp8zs2hTa1p3a6JjDt_HGmBkL-o5Y2EGdcfjNW1HT20DF7N7ncB8mpjywZdn8e"
+                  alt="Soccer"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  src="/IMG/basquet.webp"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy to-transparent opacity-90"></div>
-                <div class="absolute bottom-0 left-0 p-8">
-                  <h5 class="text-2xl font-bold text-white mb-2">Básquetbol</h5>
-                  <p class="text-white/70 text-sm">Competencia 5x5</p>
+                <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
+
+                <div className="absolute bottom-0 left-0 p-8">
+                  <h5 className="text-2xl font-bold text-white mb-2">
+                    Básquetbol
+                  </h5>
+                  <p className="text-white/70 text-sm">Competencia 5x5</p>
+                </div>
+
+                <div
+                  className="absolute inset-0 flex items-center justify-center
+                  bg-brand-navy/95
+                  opacity-0 group-hover:opacity-100
+                  transition-opacity duration-300"
+                >
+                  <p className="text-white text-center px-6 text-sm">
+                    detalles
+                  </p>
                 </div>
               </div>
-              <div
-                class="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer"
-                data-purpose="discipline-card"
-              >
+
+              <div className="card-hover-effect relative group h-80 rounded-2xl overflow-hidden cursor-pointer">
                 <img
-                  alt="Athletics"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuC8ET3yElmpRxYVfvYPgQrv9vYKnNuklF-B_rL8MSPAviThvAA-mkgygZ4f_dmCXIzqANmw_yp8WDRdRg83q9eXIzNiV8GStglI0arXgrqsBOiqSN8tiCLp--g8rydwKlgWh9BGBtPf3P-xOEJft5gfC_Y9qrn9YXh-nWL_z4TxRrvqOXJ8Uq8dTVjivMeVdk5HIDuCKTT7E-WygPJfQ1mXLDOl2WgxZ0pH8gaZGEbwNUUGjEqLDRxNZ2gyjIZNFeCPbLDPOnnHvYKE"
+                  alt="Soccer"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  src="/IMG/resistencia.webp"
                 />
-                <div class="absolute inset-0 bg-gradient-to-t from-brand-navy to-transparent opacity-90"></div>
-                <div class="absolute bottom-0 left-0 p-8">
-                  <h5 class="text-2xl font-bold text-white mb-2">
-                    Resistenvia y Velocidad
+                <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
+
+                <div className="absolute bottom-0 left-0 p-8">
+                  <h5 className="text-2xl font-bold text-white mb-2">
+                    Resistencia y Velocidad
                   </h5>
-                  <p class="text-white/70 text-sm">Pista y Campo</p>
+                  <p className="text-white/70 text-sm">Pista y Campo</p>
+                </div>
+
+                <div
+                  className="absolute inset-0 flex items-center justify-center
+                  bg-brand-navy/95
+                  opacity-0 group-hover:opacity-100
+                  transition-opacity duration-300"
+                >
+                  <p className="text-white text-center px-6 text-sm">
+                    detalles
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+
           <div>
-            <h3 class="text-brand-orange font-bold text-xl mb-8 flex items-center gap-4">
-              <span class="w-8 h-[2px] bg-brand-orange"></span>
+            <h3 className="text-brand-orange font-bold text-xl mb-8 flex items-center gap-4">
+              <span class="w-8 h-0.5 bg-brand-orange"></span>
             </h3>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div class="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
                 <div>
-                  <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
+                  <div className="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
                     <svg
-                      class="h-6 w-6"
+                      className="h-6 w-6"
                       fill="none"
                       stroke="currentColor"
                       viewbox="0 0 24 24"
@@ -247,21 +266,16 @@ export default function Inicio() {
                       ></path>
                     </svg>
                   </div>
-                  <h5 class="text-2xl font-bold text-white mb-3">
-                    Reality Academica
-                  </h5>
-                  <p class="text-white/50 text-sm leading-relaxed">
-                    Olimpiada de cálculo y lógica computacional para nivel
-                    avanzado.
-                  </p>
+                  <h5 className="text-2xl font-bold text-white mb-3">Academica</h5>
+                  <p className="text-white/50 text-sm leading-relaxed">detalles</p>
                 </div>
                 <a
-                  class="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
+                  className="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
                   href="#"
                 >
                   Ver detalles{" "}
                   <svg
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     fill="none"
                     stroke="currentColor"
                     viewbox="0 0 24 24"
@@ -276,11 +290,11 @@ export default function Inicio() {
                   </svg>
                 </a>
               </div>
-              <div class="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
+              <div className="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
                 <div>
-                  <div class="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
+                  <div className="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
                     <svg
-                      class="h-6 w-6"
+                      className="h-6 w-6"
                       fill="none"
                       stroke="currentColor"
                       viewbox="0 0 24 24"
@@ -294,21 +308,21 @@ export default function Inicio() {
                       ></path>
                     </svg>
                   </div>
-                  <h5 class="text-2xl font-bold text-white mb-3">
+                  <h5 className="text-2xl font-bold text-white mb-3">
                     Proyectos Escolares
                   </h5>
-                  <p class="text-white/50 text-sm leading-relaxed">
+                  <p className="text-white/50 text-sm leading-relaxed">
                     Feria de experimentación e innovación tecnológica
                     institucional.
                   </p>
                 </div>
                 <a
-                  class="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
+                  className="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
                   href="#"
                 >
                   Ver detalles{" "}
                   <svg
-                    class="h-4 w-4"
+                    className="h-4 w-4"
                     fill="none"
                     stroke="currentColor"
                     viewbox="0 0 24 24"

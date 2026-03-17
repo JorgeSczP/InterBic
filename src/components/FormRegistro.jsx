@@ -17,7 +17,7 @@ export default function FormRegistro() {
     sexo: "",
     semestre: "",
     tipo_sangre: "",
-    alergias: null,
+    alergias: "",
     disciplina_id: "",
     plantel_id: "",
     nss: "",

@@ -21,3 +21,24 @@ export const crearEstudianteConResponsable = async (
 
   return true;
 };
+
+export const obtenerEstudiantes = async () => {
+  const { data, error } = await supabase.from("Estudiante").select(`
+    nombre, apellido_p, apellido_m, curp, semestre,
+    plantel_id (
+      plantel
+    ),
+    disciplina_id (
+      disciplina
+    ),
+    Responsable(
+    nombre, telefono
+    )
+  `);
+
+  if (error) {
+    console.error("Error:", error);
+    return null;
+  }
+  return data;
+};
