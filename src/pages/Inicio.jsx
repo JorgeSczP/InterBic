@@ -215,7 +215,7 @@ export default function Inicio() {
                 <img
                   alt="Volibol"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  src="/IMG/voli.webp"
+                  src="/IMG/deportiva.webp"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
 

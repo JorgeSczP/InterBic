@@ -19,7 +19,7 @@ export default function NavBar() {
             Inicio
           </a>
           <NavLink
-            to={"/diciplinas"}
+            to={"/disciplinas"}
             className="hover:text-brand-orange transition-colors"
           >
             Disciplinas

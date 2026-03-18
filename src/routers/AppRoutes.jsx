@@ -5,6 +5,7 @@ import Registro from "../pages/Registro";
 import NoEncontrado from "../pages/NoEncontrado";
 import Login from "../pages/Login";
 import EstudianteRegistrado from "../pages/EstudianteRegistrado";
+import Disciplinas from "../pages/Disciplinas";
 
 export default function AppRoutes() {
   return (
@@ -23,6 +24,14 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <Inicio />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/disciplinas"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <Disciplinas />
           </PrivateRoute>
         }
       />
