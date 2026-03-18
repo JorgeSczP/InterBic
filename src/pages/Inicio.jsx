@@ -188,7 +188,7 @@ export default function Inicio() {
                 <img
                   alt="Soccer"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  src="/IMG/basquet.webp"
+                  src="/IMG/basquetF.webp"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
 
@@ -215,7 +215,7 @@ export default function Inicio() {
                 <img
                   alt="Volibol"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  src="/IMG/"
+                  src="/IMG/voli.webp"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-brand-navy to-transparent opacity-90"></div>
 
@@ -284,100 +284,74 @@ export default function Inicio() {
               <span class="w-8 h-0.5 bg-brand-orange"></span>
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
+              <div className="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col group hover:bg-brand-navy/50 transition-colors">
                 <div>
-                  <div className="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
+                  <div className="h-12 w-30 bg-white/5 rounded-lg flex flex-row space-x-2 items-center justify-center mb-6 text-brand-orange">
                     <svg
-                      className="h-6 w-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      width="24"
+                      stroke="currentColor"
+                      viewBox="0 0 512 512"
                     >
                       <path
-                        d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      ></path>
+                        fill="#F97316"
+                        d="M256 141.3l0 309.3 .5-.2C311.1 427.7 369.7 416 428.8 416l19.2 0 0-320-19.2 0c-42.2 0-84.1 8.4-123.1 24.6-16.8 7-33.4 13.9-49.7 20.7zM230.9 61.5L256 72 281.1 61.5C327.9 42 378.1 32 428.8 32L464 32c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-35.2 0c-50.7 0-100.9 10-147.7 29.5l-12.8 5.3c-7.9 3.3-16.7 3.3-24.6 0l-12.8-5.3C184.1 490 133.9 480 83.2 480L48 480c-26.5 0-48-21.5-48-48L0 80C0 53.5 21.5 32 48 32l35.2 0c50.7 0 100.9 10 147.7 29.5z"
+                      />
                     </svg>
+                    <span>Fase 1</span>
                   </div>
                   <h5 className="text-2xl font-bold text-white mb-3">
                     Tejiendo el conocimiento
                   </h5>
                   <p className="text-white/50 text-sm leading-relaxed">
-                    - Registra hasta 4 estudiantes (2 mujeres y 2 hombres).
+                    Registra hasta 4 estudiantes (2 mujeres y 2 hombres).
                     Participan en actividades de las asignaturas del MCCEMS
-                    2024.
+                    2024. Fortalece el trabajo colaborativo y la construcción
+                    del conocimiento.
                   </p>
+                  <div className="flex w-full h-50 overflow-hidden py-2">
+                      <img
+                        alt="fase1"
+                        className="w-full h-full  object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="/IMG/fase1.webp"
+                      />
+                  </div>
                 </div>
-                <a
-                  className="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
-                  href="#"
-                >
-                  <svg
-                    className="h-4 w-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    ></path>
-                  </svg>
-                </a>
               </div>
               <div className="card-hover-effect p-8 bg-brand-navy border border-white/10 rounded-2xl flex flex-col justify-between group hover:bg-brand-navy/50 transition-colors">
                 <div>
-                  <div className="w-12 h-12 bg-white/5 rounded-lg flex items-center justify-center mb-6 text-brand-orange">
+                  <div className="h-12 w-30 bg-white/5 rounded-lg flex flex-row space-x-2 items-center justify-center mb-6 text-brand-orange">
                     <svg
-                      className="h-6 w-6"
-                      fill="none"
-                      stroke="currentColor"
-                      viewbox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      width="24"
+                      stroke="currentColor"
+                      viewBox="0 0 512 512"
                     >
                       <path
-                        d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                      ></path>
+                        fill="#F97316"
+                        d="M256 141.3l0 309.3 .5-.2C311.1 427.7 369.7 416 428.8 416l19.2 0 0-320-19.2 0c-42.2 0-84.1 8.4-123.1 24.6-16.8 7-33.4 13.9-49.7 20.7zM230.9 61.5L256 72 281.1 61.5C327.9 42 378.1 32 428.8 32L464 32c26.5 0 48 21.5 48 48l0 352c0 26.5-21.5 48-48 48l-35.2 0c-50.7 0-100.9 10-147.7 29.5l-12.8 5.3c-7.9 3.3-16.7 3.3-24.6 0l-12.8-5.3C184.1 490 133.9 480 83.2 480L48 480c-26.5 0-48-21.5-48-48L0 80C0 53.5 21.5 32 48 32l35.2 0c50.7 0 100.9 10 147.7 29.5z"
+                      />
                     </svg>
+                    <span>Fase 2</span>
                   </div>
                   <h5 className="text-2xl font-bold text-white mb-3">
-                    Fortalece el trabajo colaborativo y la construcción del
-                    conocimiento. Tejiendo el conocimiento
+                    Tejiendo el conocimiento
                   </h5>
                   <p className="text-white/50 text-sm leading-relaxed">
-                    - Se mantiene el mismo equipo de la fase 1. Presentan su
+                    Se mantiene el mismo equipo de la fase 1. Presentan su
                     proyecto comunitario. Consolida aprendizajes mediante la
                     propuesta de impacto comunitario.
                   </p>
+                  <div className="flex w-full h-50 overflow-hidden py-2">
+                      <img
+                        alt="fase2"
+                        className="w-full h-full  object-cover transition-transform duration-500 group-hover:scale-110"
+                        src="/IMG/fase2.webp"
+                      />
+                  </div>
                 </div>
-                <a
-                  className="mt-8 text-white font-semibold text-sm flex items-center gap-2 group-hover:text-brand-orange transition-colors"
-                  href="#"
-                >
-                  <svg
-                    className="h-4 w-4"
-                    fill="none"
-                    stroke="currentColor"
-                    viewbox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M17 8l4 4m0 0l-4 4m4-4H3"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                    ></path>
-                  </svg>
-                </a>
               </div>
             </div>
           </div>
