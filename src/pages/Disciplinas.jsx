@@ -27,20 +27,30 @@ export default function () {
           <TarjetaDisciplina
             disciplina="Basquetbol"
             imagen="/IMG/basquet.webp"
+            equipos="7"
+            participantes="49"
+            url="/basquetbol/equipos"
           />
           <TarjetaDisciplina
             disciplina="Futbol"
             imagen="/IMG/fut.webp"
+            equipos="7"
+            participantes="63"
+            url="/futbol/equipos"
           />
 
           <TarjetaDisciplina
             disciplina="Volibol"
             imagen="/IMG/deportiva.webp"
+            equipos="7"
+            participantes="56"
+            url="/volibol/equipos"
           />
 
           <TarjetaDisciplina
             disciplina="Resistencia"
             imagen="/IMG/resistencia.webp"
+            url="/resistencia/equipos"
           />
 
           <TarjetaDisciplina

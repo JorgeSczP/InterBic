@@ -6,6 +6,10 @@ import NoEncontrado from "../pages/NoEncontrado";
 import Login from "../pages/Login";
 import EstudianteRegistrado from "../pages/EstudianteRegistrado";
 import Disciplinas from "../pages/Disciplinas";
+import BasquetEquipos from "../pages/BasquetEquipos";
+import FutbolEquipos from "../pages/FutbolEquipos";
+import VolibolEquipos from "../pages/VolibolEquipos";
+import ResistenciaEquipos from "../pages/ResistenciaEquipos";
 
 export default function AppRoutes() {
   return (
@@ -32,6 +36,45 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <Disciplinas />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/basquetbol/equipos"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <BasquetEquipos />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/futbol/equipos"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FutbolEquipos />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/volibol/equipos"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <VolibolEquipos />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/resistencia/equipos"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <ResistenciaEquipos />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/velocidad/equipos"
+        element={
+          <PrivateRoute acceso="noAcceso">
           </PrivateRoute>
         }
       />
