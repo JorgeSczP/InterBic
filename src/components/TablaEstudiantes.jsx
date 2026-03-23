@@ -6,6 +6,7 @@ export default function TablaEstudiantes({ estudiantes }) {
       <table className="w-full border border-gray-300">
         <thead>
           <tr className="bg-gray-200">
+            <th className="p-2 border"></th>
             <th className="p-2 border">Nombre completo</th>
             <th className="p-2 border">Curp</th>
             <th className="p-2 border">Plantel</th>
@@ -17,8 +18,9 @@ export default function TablaEstudiantes({ estudiantes }) {
         </thead>
 
         <tbody>
-          {estudiantes.map((e) => (
+          {estudiantes.map((e, index) => (
             <tr key={e.curp} className="text-slate-100">
+              <td className="p-2 border">{index + 1}</td>
               <td className="p-2 border">
                 {e.nombre} {e.apellido_p} {e.apellido_m}
               </td>
