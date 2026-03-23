@@ -17,10 +17,50 @@ export default function EstudianteRegistrado() {
     setEstudiantes(data);
     setCargando(false);
   };
+
+  const exportarCSV = () => {
+    const headers = [
+      "Nombre",
+      "Apellido Paterno",
+      "Apellido Materno",
+      "Curp",
+      "Plantel",
+      "Disciplina",
+      "Responsable",
+      "Telefono",
+    ];
+
+    const rows = estudiantes.map((p) => [
+      p.nombre,
+      p.apellido_p,
+      p.apellido_m,
+      p.curp,
+      p.plantel_id.plantel,
+      p.disciplina_id.disciplina,
+      p.Responsable[0]?.nombre,
+      p.Responsable[0]?.telefono,
+    ]);
+
+    let csvContent =
+      headers.join(",") + "\n" + rows.map((e) => e.join(",")).join("\n");
+
+    const blob = new Blob(["\uFEFF" + csvContent], {
+      type: "text/csv;charset=utf-8;",
+    });
+
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "Estudiantes.csv";
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   return (
     <div class="relative min-h-screen flex-col items-center pt-20 overflow-hidden bg-brand-navy overflow-x-auto">
-      <div className="flex w-full justify-center text-white">
-        <h1 className="font-bold">Estudiantes Registrados</h1>
+      <div className="flex w-full justify-center items-center py-4 text-white relative">
+        <h1 className="text-3xl font-bold text-slate-100 mb-2">Disciplinas</h1>
+        <button className="p-1 bg-[#1D6F42] rounded-[5px] font-semibold absolute end-5" onClick={() => exportarCSV()}>Descargar CSV</button>
       </div>
       {cargando ? (
         <div className="flex w-full justify-center items-center text-white py-20">
