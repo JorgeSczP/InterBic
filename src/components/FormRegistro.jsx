@@ -23,7 +23,6 @@ export default function FormRegistro() {
     nss: "",
   });
 
-
   const [responsable, setResponsable] = useState({
     nombre: "",
     telefono: "",
@@ -78,8 +77,9 @@ export default function FormRegistro() {
       nuevosErrores.resp_nombre = "El nombre completo es obligatorio";
     if (!responsable.telefono.trim())
       nuevosErrores.resp_telefono = "El teléfono es obligatorio";
-    else if (responsable.telefono.length !== 10)
-      nuevosErrores.resp_telefono = "El teléfono debe tener 10 dígitos";
+    else if (!/^\d{10}$/.test(responsable.telefono))
+      nuevosErrores.resp_telefono =
+        "El teléfono debe tener 10 dígitos sin espacios";
 
     setErrores(nuevosErrores);
     return Object.keys(nuevosErrores).length === 0;
@@ -100,7 +100,7 @@ export default function FormRegistro() {
     try {
       await crearEstudianteConResponsable(data, responsable);
       alert("Estudiante registrado correctamente");
-      navigate("/")
+      navigate("/");
     } catch (error) {
       alert("Error: " + error.message);
     }
