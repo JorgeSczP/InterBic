@@ -59,7 +59,7 @@ export default function EstudianteRegistrado() {
   return (
     <div class="relative min-h-screen flex-col items-center pt-20 overflow-hidden bg-brand-navy overflow-x-auto">
       <div className="flex w-full justify-center items-center py-4 text-white relative">
-        <h1 className="text-3xl font-bold text-slate-100 mb-2">Disciplinas</h1>
+        <h1 className="text-3xl font-bold text-slate-100 mb-2">Estudiantes Registrados</h1>
         <button className="p-1 bg-[#1D6F42] rounded-[5px] font-semibold absolute inset-e-5" onClick={() => exportarCSV()}>Descargar CSV</button>
       </div>
       {cargando ? (
