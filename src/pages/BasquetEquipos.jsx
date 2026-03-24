@@ -1,8 +1,23 @@
 import React from "react";
 import TablaEquipo from "../components/TablaEquipo";
 import { basquetEquipos } from "../utils/equipos";
+import { useState } from "react";
+import { useEffect } from "react";
+import { BasquetBol } from "../service/Equipos";
 
 export default function BasquetEquipos() {
+  const [equipos, setEquipos] = useState([]);
+  const [cargando, setCargando] = useState(true);
+
+  useEffect(() => {
+    cargarDatos();
+  }, []);
+
+  const cargarDatos = async () => {
+    const data = await BasquetBol();
+    setEquipos(data);
+    setCargando(false);
+  };
   return (
     <section
       className="py-24 min-h-screen bg-brand-darker overflow-hidden"
@@ -16,7 +31,7 @@ export default function BasquetEquipos() {
           </h1>
         </div>
         <div>
-            <TablaEquipo equipos={basquetEquipos}/>
+          <TablaEquipo equipos={equipos} />
         </div>
       </div>
     </section>

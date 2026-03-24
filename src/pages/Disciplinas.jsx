@@ -56,6 +56,7 @@ export default function () {
           <TarjetaDisciplina
             disciplina="Velocidad"
             imagen="/IMG/.webp"
+            url="/velocidad/equipos"
           />
         </div>
       </div>
