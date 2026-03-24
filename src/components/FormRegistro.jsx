@@ -4,7 +4,7 @@ import {
   crearEstudianteConResponsable,
 } from "../service/Estudiante";
 import { planteles } from "../utils/planteles";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 export default function FormRegistro() {
   const navigate = useNavigate();
@@ -326,12 +326,14 @@ export default function FormRegistro() {
           >
             Registrarse
           </button>
-          <button
-            type="button"
-            className="w-37 h-10 rounded-lg border bg-gray-400 text-white"
-          >
-            Cancelar
-          </button>
+          <NavLink to={"/"}>
+            <button
+              type="button"
+              className="w-37 h-10 rounded-lg border bg-gray-400 text-white"
+            >
+              Cancelar
+            </button>
+          </NavLink>
         </div>
       </form>
     </div>
