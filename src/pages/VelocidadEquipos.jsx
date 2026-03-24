@@ -29,9 +29,9 @@ export default function VelocidadEquipos() {
             Velocidad
           </h1>
         </div>
-        <div>
-          <TablaEquipo equipos={equipos} />
-        </div>
+        <div className="overflow-x-auto">
+                  <TablaEquipo equipos={equipos} />
+                </div>
       </div>
     </section>
   );

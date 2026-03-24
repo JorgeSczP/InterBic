@@ -30,7 +30,7 @@ export default function BasquetEquipos() {
             Equipos Basquetbol
           </h1>
         </div>
-        <div>
+        <div className="overflow-x-auto">
           <TablaEquipo equipos={equipos} />
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function TablaEquipo({ equipos }) {
         <tbody>
           {equipos.map((e) => (
             <tr key={e.cct} className="text-slate-100">
-              <td className="p-2 border">{e.plantel}</td>
+              <td className="p-2 border whitespace-nowrap">{e.plantel}</td>
               <td className="p-2 border text-center">{e.hombres}</td>
               <td className="p-2 border text-center">{e.mujeres}</td>
               <td className="p-2 border">{e.status}</td>

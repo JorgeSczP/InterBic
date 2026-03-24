@@ -30,7 +30,7 @@ export default function ResistenciaEquipos() {
             Resistencia
           </h1>
         </div>
-        <div>
+        <div className="overflow-x-auto">
           <TablaEquipo equipos={equipos} />
         </div>
       </div>

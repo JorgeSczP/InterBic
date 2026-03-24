@@ -29,9 +29,9 @@ export default function FutbolEquipos() {
             Equipos Futbol
           </h1>
         </div>
-        <div>
-          <TablaEquipo equipos={equipos} />
-        </div>
+        <div className="overflow-x-auto">
+                  <TablaEquipo equipos={equipos} />
+                </div>
       </div>
     </section>
   );
