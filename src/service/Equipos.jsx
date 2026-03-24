@@ -39,7 +39,6 @@ export const Volibol = async () => {
   return data;
 };
 
-
 export const Resistencia = async () => {
   const { data, error } = await supabase
     .from("conteo_estudiantes")
@@ -66,3 +65,14 @@ export const Velocidad = async () => {
   return data;
 };
 
+export const CantidadEquipos = async () => {
+  const { data, error } = await supabase
+    .from("cantidad_deportes")
+    .select(`*`)
+    
+  if (error) {
+    console.error("Error:", error);
+    return null;
+  }
+  return data;
+};

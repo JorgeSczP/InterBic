@@ -4,11 +4,12 @@ import { NavLink } from "react-router-dom";
 export default function TarjetaDisciplina({
   imagen,
   disciplina,
-  participantes,
   equipos,
   url,
   urlR,
 }) {
+  const dis = equipos?.find((d) => d.disciplina === disciplina);
+
   return (
     <div className="group relative flex flex-col h-80 rounded-xl overflow-hidden bg-slate-200">
       <div className="absolute inset-0 bg-linear-to-t from-black/90 via-black/20 to-transparent z-10"></div>
@@ -25,11 +26,11 @@ export default function TarjetaDisciplina({
 
         <div className="flex items-center gap-2 mt-1 mb-4">
           <span className="text-[#257bf4] font-medium text-sm">
-            {equipos} Equipos
+            {dis?.total_equipos ?? 0} Equipos
           </span>
           <span className="h-1 w-1 rounded-full bg-slate-400"></span>
           <span className="text-slate-300 text-sm">
-            {participantes} Participantes
+            {dis?.total_participantes ?? 0} Participantes
           </span>
         </div>
         <div className="grid grid-cols-2 space-x-1">
