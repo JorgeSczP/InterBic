@@ -73,6 +73,23 @@ export default function () {
             url="/velocidad/equipos"
           />
         </div>
+
+        <div class="flex items-center justify-between mb-8 mt-8">
+          <div>
+            <h2 class="text-white text-2xl lg:text-3xl font-bold tracking-tight">
+              Academica
+            </h2>
+            <p class="text-slate-400 mt-1">Torneos </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <TarjetaDisciplina
+            disciplina="Academica"
+            equipos={equipos}
+            imagen="/IMG/"
+            url="/academica/equipos"
+          />
+        </div>
       </div>
     </section>
   );

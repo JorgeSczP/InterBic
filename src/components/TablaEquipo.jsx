@@ -7,8 +7,8 @@ export default function TablaEquipo({ equipos }) {
         <thead>
           <tr className="bg-gray-200">
             <th className="p-2 border">Plantel</th>
-            <th className="p-2 border">Rama</th>
-            <th className="p-2 border">Participantes</th>
+            <th className="p-2 border">Varonil</th>
+            <th className="p-2 border">Femenil</th>
             <th className="p-2 border">Status</th>
           </tr>
         </thead>
@@ -17,8 +17,8 @@ export default function TablaEquipo({ equipos }) {
           {equipos.map((e) => (
             <tr key={e.cct} className="text-slate-100">
               <td className="p-2 border">{e.plantel}</td>
-              <td className="p-2 border">{e.sexo == "H" ? "Varonil" : "Femenil"}</td>
-              <td className="p-2 border">{e.total_estudiantes}</td>
+              <td className="p-2 border">{e.hombres}</td>
+              <td className="p-2 border">{e.mujeres}</td>
               <td className="p-2 border">{e.status}</td>
             </tr>
           ))}

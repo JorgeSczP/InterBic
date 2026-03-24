@@ -2,7 +2,7 @@ import { supabase } from "../api/supabase";
 
 export const BasquetBol = async () => {
   const { data, error } = await supabase
-    .from("conteo_estudiantes")
+    .from("deportes_cantidad")
     .select(`*`)
     .eq("disciplina", "Basquetbol");
 
@@ -15,7 +15,7 @@ export const BasquetBol = async () => {
 
 export const Futbol = async () => {
   const { data, error } = await supabase
-    .from("conteo_estudiantes")
+    .from("deportes_cantidad")
     .select(`*`)
     .eq("disciplina", "Futbol");
 
@@ -28,7 +28,7 @@ export const Futbol = async () => {
 
 export const Volibol = async () => {
   const { data, error } = await supabase
-    .from("conteo_estudiantes")
+    .from("deportes_cantidad")
     .select(`*`)
     .eq("disciplina", "Volibol");
 
@@ -41,7 +41,7 @@ export const Volibol = async () => {
 
 export const Resistencia = async () => {
   const { data, error } = await supabase
-    .from("conteo_estudiantes")
+    .from("deportes_cantidad")
     .select(`*`)
     .eq("disciplina", "Resistencia");
 
@@ -54,9 +54,22 @@ export const Resistencia = async () => {
 
 export const Velocidad = async () => {
   const { data, error } = await supabase
-    .from("conteo_estudiantes")
+    .from("deportes_cantidad")
     .select(`*`)
     .eq("disciplina", "Velocidad");
+
+  if (error) {
+    console.error("Error:", error);
+    return null;
+  }
+  return data;
+};
+
+export const Academica = async () => {
+  const { data, error } = await supabase
+    .from("deportes_cantidad")
+    .select(`*`)
+    .eq("disciplina", "Academica");
 
   if (error) {
     console.error("Error:", error);
