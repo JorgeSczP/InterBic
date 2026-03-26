@@ -1,11 +1,11 @@
 import React from "react";
-import CardPartido from "../components/CardPartido";
-import { torneoBasquetbolF, torneoBasquetbolV } from "../utils/equipos";
 import { useState } from "react";
+import { torneoFutbolF, torneoFutbolV } from "../utils/equipos";
+import CardPartido from "../components/CardPartido";
 
-export default function TorneoBasquet() {
+export default function TorneoFutbol() {
   const [categoria, setCategoria] = useState("varonil");
-  const data = categoria === "varonil" ? torneoBasquetbolV : torneoBasquetbolF;
+  const data = categoria === "varonil" ? torneoFutbolV : torneoFutbolF;
 
   return (
     <section

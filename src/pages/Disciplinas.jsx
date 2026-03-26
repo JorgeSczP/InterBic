@@ -51,6 +51,7 @@ export default function () {
             equipos={equipos}
             imagen="/IMG/fut.webp"
             url="/futbol/equipos"
+            urlRol="/futbol/torneo"
           />
 
           <TarjetaDisciplina
@@ -58,6 +59,7 @@ export default function () {
             equipos={equipos}
             imagen="/IMG/deportiva.webp"
             url="/volibol/equipos"
+            urlRol="/volibol/torneo"
           />
 
           <TarjetaDisciplina
@@ -70,7 +72,7 @@ export default function () {
           <TarjetaDisciplina
             disciplina="Velocidad"
             equipos={equipos}
-            imagen="/IMG/.webp"
+            imagen="/IMG/velocidad.webp"
             url="/velocidad/equipos"
           />
         </div>

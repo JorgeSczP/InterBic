@@ -13,6 +13,8 @@ import ResistenciaEquipos from "../pages/ResistenciaEquipos";
 import VelocidadEquipos from "../pages/VelocidadEquipos";
 import AcademicaEquipos from "../pages/AcademicaEquipos";
 import TorneoBasquet from "../pages/TorneoBasquet";
+import TorneoFutbol from "../pages/TorneoFutbol";
+import TorneoVolibol from "../pages/TorneoVolibol";
 
 export default function AppRoutes() {
   return (
@@ -96,6 +98,22 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <TorneoBasquet />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/futbol/torneo"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <TorneoFutbol />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/volibol/torneo"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <TorneoVolibol />
           </PrivateRoute>
         }
       />
