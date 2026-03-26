@@ -68,7 +68,7 @@ export const torneoBasquetbolV = [
         nombre: "Juego VIII",
         local: "JP4",
         visita: "JP6",
-        hora: "14:15 - 1:00"
+        hora: "14:15 - 15:00"
       }
     ]
   },
@@ -153,7 +153,7 @@ export const torneoBasquetbolF = [
         nombre: "Juego VIII",
         local: "JP4",
         visita: "JP6",
-        hora: "14:15 - 1:00"
+        hora: "14:15 - 15:00"
       }
     ]
   },
@@ -238,7 +238,7 @@ export const torneoFutbolV = [
         nombre: "Juego VIII",
         local: "JP4",
         visita: "JP6",
-        hora: "14:15 - 1:00"
+        hora: "14:15 - 15:00"
       }
     ]
   },
