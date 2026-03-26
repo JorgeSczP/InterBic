@@ -32,10 +32,10 @@ export default function () {
 
         <div class="flex items-center justify-between mb-8">
           <div>
-            <h2 class="text-white text-2xl lg:text-3xl font-bold tracking-tight">
+            <h2 class="text-slate-900 text-2xl lg:text-3xl font-bold tracking-tight">
               Deportes
             </h2>
-            <p class="text-slate-400 mt-1">Torneos </p>
+            <p class="text-slate-900 mt-1">Torneos </p>
           </div>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -79,17 +79,16 @@ export default function () {
 
         <div class="flex items-center justify-between mb-8 mt-8">
           <div>
-            <h2 class="text-white text-2xl lg:text-3xl font-bold tracking-tight">
+            <h2 class="text-slate-900 text-2xl lg:text-3xl font-bold tracking-tight">
               Academica
             </h2>
-            <p class="text-slate-400 mt-1">Torneos </p>
           </div>
         </div>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <TarjetaDisciplina
             disciplina="Academica"
             equipos={equipos}
-            imagen="/IMG/"
+            imagen="/IMG/fase1.webp"
             url="/academica/equipos"
           />
         </div>

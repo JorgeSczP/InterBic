@@ -9,13 +9,13 @@ export default function TorneoVolibol() {
 
   return (
     <section
-      className="py-24 min-h-screen bg-brand-darker overflow-hidden"
+      className="py-24 min-h-screen overflow-hidden"
       data-purpose="disciplines-showcase"
       id="disciplinas"
     >
       <div class="mb-4 max-w-7xl mx-auto px-6">
         <div className="flex w-full justify-center items-center py-4 text-white">
-          <h1 className="text-3xl font-bold text-slate-100 mb-2">
+          <h1 className="text-3xl font-bold text-slate-900 mb-2">
             Torneo Basquetbol
           </h1>
         </div>
@@ -48,10 +48,10 @@ export default function TorneoVolibol() {
         {data.map((dia, index) => (
           <div key={index} className="mb-10">
             <div className="flex items-baseline justify-between mb-10">
-              <h3 className="text-2xl font-black text-[#dae2fd]">
+              <h3 className="text-2xl font-black text-[#09090a]">
                 {dia.fecha}
               </h3>
-              <span className="text-[#c2c6d6]">
+              <span className="text-[#161718]">
                 {dia.juegos.length} Partidos Programados
               </span>
             </div>

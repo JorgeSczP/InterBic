@@ -57,7 +57,7 @@ export default function EstudianteRegistrado() {
   };
 
   return (
-    <div class="relative min-h-screen flex-col items-center pt-20 overflow-hidden bg-brand-navy overflow-x-auto">
+    <div class="relative min-h-screen flex-col items-center pt-20 overflow-hidden overflow-x-auto">
       <div className="flex flex-col md:flex-row w-full justify-center items-center py-4 text-white relative gap-3">
         <h1 className="text-3xl font-bold text-slate-100 mb-2 text-center md:text-left">
           Estudiantes Registrados

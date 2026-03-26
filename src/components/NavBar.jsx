@@ -10,7 +10,11 @@ export default function NavBar() {
     <nav className="fixed top-0 w-full z-50 bg-brand-navy/90 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         <div className="flex flex-1 items-center gap-7 relative">
-          <img src="/IMG/oaxaca.webp" className="h-8 sm:h-12" />
+          {/* <img src="/IMG/oaxaca.webp" className="h-8 sm:h-12" /> */}
+          <picture>
+            <source media="(min-width: 640px)" srcSet="/IMG/oaxaca.webp" />
+            <img src="/IMG/oaxacaV.webp" className="h-8 sm:h-12" />
+          </picture>
           <picture>
             <source media="(min-width: 640px)" srcSet="/IMG/logo.webp" />
             <img src="/IMG/LogoV.webp" className="h-8 sm:h-12" />

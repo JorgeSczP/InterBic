@@ -19,7 +19,7 @@ export default function TablaEstudiantes({ estudiantes }) {
 
         <tbody>
           {estudiantes.map((e, index) => (
-            <tr key={e.curp} className="text-slate-100">
+            <tr key={e.curp} className="text-black">
               <td className="p-2 border">{index + 1}</td>
               <td className="p-2 border">
                 {e.nombre} {e.apellido_p} {e.apellido_m}

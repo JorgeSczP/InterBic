@@ -4,10 +4,10 @@ export default function CardPartido({torneo}) {
   return (
     <div class="max-w-4xl mx-auto">
       <div class="flex justify-between px-8 mb-2">
-        <span class="text-[10px] font-black uppercase tracking-[0.3em] text-[#adc6ff]/60">
+        <span class="text-[10px] font-black uppercase tracking-[0.3em] text-[#1545b6]">
           {torneo?.nombre}
         </span>
-        <span class="text-[10px] font-black uppercase tracking-[0.3em] text-[#c2c6d6]">
+        <span class="text-[10px] font-black uppercase tracking-[0.3em] text-[#1545b6]">
           {torneo?.hora}
         </span>
       </div>

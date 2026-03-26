@@ -20,7 +20,7 @@ export default function BasquetEquipos() {
   };
   return (
     <section
-      className="py-24 min-h-screen bg-brand-darker overflow-hidden"
+      className="py-24 min-h-screen overflow-hidden"
       data-purpose="disciplines-showcase"
       id="disciplinas"
     >
