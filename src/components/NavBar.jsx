@@ -9,14 +9,19 @@ export default function NavBar() {
   return (
     <nav className="fixed top-0 w-full z-50 bg-brand-navy/90 backdrop-blur-md border-b border-white/10">
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-        
-        <div className="flex items-center gap-2">
-          <span className="text-white font-extrabold text-2xl tracking-tighter italic uppercase">
+        <div className="flex flex-1 items-center gap-7 relative">
+          <img src="/IMG/oaxaca.webp" className="h-8 sm:h-12" />
+          <picture>
+            <source media="(min-width: 640px)" srcSet="/IMG/logo.webp" />
+            <img src="/IMG/LogoV.webp" className="h-8 sm:h-12" />
+          </picture>
+          {/* <img src="/IMG/logo.webp" className="h-8 sm:h-12"/> */}
+          <span className="text-white font-extrabold text-2xl tracking-tighter italic uppercase absolute  inset-e-7">
             Inter<span className="text-brand-orange">Bic</span>
           </span>
         </div>
 
-        <div className="hidden md:flex items-center gap-8 text-sm font-semibold text-white/90">
+        <div className="hidden lg:flex items-center gap-8 text-sm font-semibold text-white/90">
           <a className="hover:text-brand-orange transition-colors" href="/">
             Inicio
           </a>
@@ -47,7 +52,7 @@ export default function NavBar() {
 
         <button
           aria-label="Menu"
-          className="md:hidden text-white"
+          className="lg:hidden text-white"
           onClick={() => setOpen(!open)}
         >
           {open ? (
@@ -83,7 +88,7 @@ export default function NavBar() {
       </div>
 
       {open && (
-        <div className="md:hidden bg-brand-navy px-6 pb-4 flex flex-col gap-4 text-white font-semibold">
+        <div className="lg:hidden bg-brand-navy px-6 pb-4 flex flex-col gap-4 text-white font-semibold">
           <a
             href="/"
             className="hover:text-brand-orange"
