@@ -13,11 +13,11 @@ export default function NavBar() {
           {/* <img src="/IMG/oaxaca.webp" className="h-8 sm:h-12" /> */}
           <picture>
             <source media="(min-width: 640px)" srcSet="/IMG/oaxaca.webp" />
-            <img src="/IMG/oaxacaV.webp" className="h-12 sm:h-12" />
+            <img src="/IMG/oaxacaV.webp" className="h-14 sm:h-12" />
           </picture>
           <picture>
             <source media="(min-width: 640px)" srcSet="/IMG/logo.webp" />
-            <img src="/IMG/LogoV.webp" className="h-12 sm:h-12" />
+            <img src="/IMG/LogoV.webp" className="h-14 sm:h-12" />
           </picture>
           {/* <img src="/IMG/logo.webp" className="h-8 sm:h-12"/> */}
           <span className="text-white font-extrabold text-2xl tracking-tighter italic uppercase absolute  inset-e-7">
