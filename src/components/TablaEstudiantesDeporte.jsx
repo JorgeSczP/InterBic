@@ -2,8 +2,7 @@ import React from "react";
 
 export default function TablaEstudiantesDeporte({ estudiantes }) {
   return (
-    <div className="p-4">
-      <table className="w-full border border-gray-300">
+      <table className="w-full h-full border border-gray-300">
         <thead>
           <tr className="bg-gray-200">
             <th className="p-2 border"></th>
@@ -14,7 +13,7 @@ export default function TablaEstudiantesDeporte({ estudiantes }) {
 
         <tbody>
           {estudiantes.map((e, index) => (
-            <tr key={e.curp} className="text-black">
+            <tr key={e.curp} className="text-white">
               <td className="p-2 border">{index + 1}</td>
               <td className="p-2 border">
                 {e.nombre} {e.apellido_p} {e.apellido_m}
@@ -23,6 +22,5 @@ export default function TablaEstudiantesDeporte({ estudiantes }) {
           ))}
         </tbody>
       </table>
-    </div>
   );
 }

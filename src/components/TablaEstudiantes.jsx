@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function TablaEstudiantes({ estudiantes }) {
+  
   return (
     <div className="p-4">
       <table className="w-full border border-gray-300">
