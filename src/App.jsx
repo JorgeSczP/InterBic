@@ -9,7 +9,7 @@ function App() {
       <BrowserRouter>
         <AuthContextP>
           <div className="App">
-            <div className="flex flex-col font-sans bg-brand-light text-brand-navy selection:bg-brand-orange selection:text-white">
+            <div className="flex flex-col font-sans text-brand-navy selection:bg-brand-orange selection:text-white">
               <NavBar />
               <AppRoutes />
             </div>

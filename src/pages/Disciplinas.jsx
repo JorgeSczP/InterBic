@@ -19,7 +19,7 @@ export default function () {
   };
   return (
     <section
-      className="py-24 bg-brand-darker overflow-hidden"
+      className="py-24 overflow-hidden"
       data-purpose="disciplines-showcase"
       id="disciplinas"
     >

@@ -5,12 +5,10 @@ export default function Inicio() {
   return (
     <>
       <section
-        className="relative min-h-screen flex items-center pt-20 overflow-hidden bg-brand-navy"
-        data-purpose="hero-banner"
+        className="relative min-h-screen flex items-center pt-20 overflow-hidde"
         id="inicio"
       >
         <div className="absolute inset-0 z-0">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1541252260730-0412e8e2108e?q=80&amp;w=2000&amp;auto=format&amp;fit=crop')] bg-cover bg-center opacity-30"></div>
           <div className="hero-split-gradient absolute inset-0"></div>
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
@@ -73,7 +71,7 @@ export default function Inicio() {
       </section>
 
       <section
-        className="py-24 bg-white"
+        className="py-24"
         data-purpose="features-section"
         id="desafio"
       >
@@ -139,7 +137,7 @@ export default function Inicio() {
       </section>
 
       <section
-        className="py-24 bg-brand-darker overflow-hidden"
+        className="py-24 overflow-hidden"
         data-purpose="disciplines-showcase"
         id="disciplinas"
       >
