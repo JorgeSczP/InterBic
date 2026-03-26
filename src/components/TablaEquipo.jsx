@@ -57,8 +57,13 @@ export default function TablaEquipo({ equipos, id }) {
             >
               ✕
             </button>
-
-            <EstudiantesPorDeporte id={id} cct={selectedCct} plantel={plantel}/>
+            <div className="overflow-auto max-h-[70vh]">
+              <EstudiantesPorDeporte
+                id={id}
+                cct={selectedCct}
+                plantel={plantel}
+              />
+            </div>
           </div>
         </div>
       )}

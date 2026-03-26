@@ -22,11 +22,11 @@ export default function EstudiantesPorDeporte({ id, cct, plantel }) {
   };
 
   return (
-    <div class="mb-12 max-w-4xl mx-auto px-6 overflow-hidden h-full">
+    <div class="mb-12 max-w-4xl mx-auto px-6 overflow-hidden">
       <div className="flex w-full justify-center items-center py-4 text-white">
         <h1 className="text-3xl font-bold text-slate-100 mb-2">{plantel}</h1>
       </div>
-      <div className="overflow-auto max-h-[60vh]">
+      <div className="overflow-auto">
         <TablaEstudiantesDeporte estudiantes={estudiantes} />
       </div>
     </div>
