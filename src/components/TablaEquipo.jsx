@@ -1,6 +1,6 @@
-import React from "react";
+import { NavLink } from "react-router-dom";
 
-export default function TablaEquipo({ equipos }) {
+export default function TablaEquipo({ equipos, id }) {
   return (
     <div className="p-4">
       <table className="w-full border border-gray-300">
@@ -9,7 +9,7 @@ export default function TablaEquipo({ equipos }) {
             <th className="p-2 border">Plantel</th>
             <th className="p-2 border">Varonil</th>
             <th className="p-2 border">Femenil</th>
-            <th className="p-2 border">Status</th>
+            <th className="p-2 border"></th>
           </tr>
         </thead>
 
@@ -19,7 +19,13 @@ export default function TablaEquipo({ equipos }) {
               <td className="p-2 border whitespace-nowrap">{e.plantel}</td>
               <td className="p-2 border text-center">{e.hombres}</td>
               <td className="p-2 border text-center">{e.mujeres}</td>
-              <td className="p-2 border">{e.status}</td>
+              <td className="p-2 border text-center">
+                <NavLink to={`/basquetbol/equipos/${id}/${e.cct}`}>
+                  <button className="bg-blue-500 p-1 rounded-[5px] cursor-pointer">
+                    Ver estudiantes
+                  </button>
+                </NavLink>
+              </td>
             </tr>
           ))}
         </tbody>

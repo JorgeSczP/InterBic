@@ -31,7 +31,7 @@ export default function ResistenciaEquipos() {
           </h1>
         </div>
         <div className="overflow-x-auto">
-          <TablaEquipo equipos={equipos} />
+          <TablaEquipo equipos={equipos} id={5}/>
         </div>
       </div>
     </section>

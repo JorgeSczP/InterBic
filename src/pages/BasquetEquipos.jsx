@@ -31,7 +31,7 @@ export default function BasquetEquipos() {
           </h1>
         </div>
         <div className="overflow-x-auto">
-          <TablaEquipo equipos={equipos} />
+          <TablaEquipo equipos={equipos} id={2}/>
         </div>
       </div>
     </section>

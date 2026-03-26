@@ -42,3 +42,23 @@ export const obtenerEstudiantes = async () => {
   }
   return data;
 };
+
+export const obtenerEstudiantesDeportes = async (cct, id) => {
+  const { data, error } = await supabase
+    .from("Estudiante")
+    .select(
+      `
+      nombre, apellido_p, apellido_m
+    `,
+    )
+    .eq("plantel_id", cct)
+    .eq("disciplina_id", id)
+    .order("sexo", { ascending: true });
+
+  if (error) {
+    console.error("Error:", error);
+    return null;
+  }
+
+  return data;
+};

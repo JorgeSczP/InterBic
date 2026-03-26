@@ -30,7 +30,7 @@ export default function VelocidadEquipos() {
           </h1>
         </div>
         <div className="overflow-x-auto">
-                  <TablaEquipo equipos={equipos} />
+                  <TablaEquipo equipos={equipos} id={6}/>
                 </div>
       </div>
     </section>

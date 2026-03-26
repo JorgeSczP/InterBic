@@ -30,7 +30,7 @@ export default function FutbolEquipos() {
           </h1>
         </div>
         <div className="overflow-x-auto">
-                  <TablaEquipo equipos={equipos} />
+                  <TablaEquipo equipos={equipos} id={3}/>
                 </div>
       </div>
     </section>
