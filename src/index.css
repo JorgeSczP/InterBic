@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-body{
+body {
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -9,18 +9,22 @@ body{
 
 @theme {
   /* Colores personalizados */
-  --color-brand-navy: #0F172A;
-  --color-brand-orange: #F97316;
-  --color-brand-light: #F8FAFC;
+  --color-brand-navy: #0f172a;
+  --color-brand-orange: #f97316;
+  --color-brand-light: #f8fafc;
   --color-brand-darker: #020617;
 
   /* Fuente */
-  --font-sans: 'Inter', sans-serif;
+  --font-sans: "Inter", sans-serif;
 }
 
 @layer components {
   .hero-split-gradient {
-    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(15, 23, 42, 0.8) 100%);
+    background: linear-gradient(
+      135deg,
+      rgba(15, 23, 42, 0.95) 0%,
+      rgba(15, 23, 42, 0.8) 100%
+    );
   }
 
   .card-hover-effect {
@@ -37,6 +41,37 @@ body{
   }
 }
 
-option{
-  background: #0F172A;
+option {
+  background: #0f172a;
+}
+
+.scoreboard-bar {
+  background: linear-gradient(
+    180deg,
+    rgba(66, 71, 84, 0.4) 0%,
+    rgba(23, 31, 51, 0.8) 50%,
+    rgba(11, 19, 38, 0.9) 100%
+  );
+  border: 1px solid rgba(140, 144, 159, 0.2);
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.1),
+    0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  clip-path: polygon(2% 0%, 98% 0%, 100% 50%, 98% 100%, 2% 100%, 0% 50%);
+}
+.scoreboard-center {
+  background: linear-gradient(180deg, #4d8eff 0%, #002e6a 100%);
+  box-shadow: 0 0 20px rgba(77, 142, 255, 0.3);
+  clip-path: polygon(15% 0%, 85% 0%, 100% 100%, 0% 100%);
+}
+.scoreboard-center-live {
+  background: linear-gradient(180deg, #ffb786 0%, #502400 100%);
+  box-shadow: 0 0 20px rgba(255, 183, 134, 0.3);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    "FILL" 0,
+    "wght" 400,
+    "GRAD" 0,
+    "opsz" 24;
 }

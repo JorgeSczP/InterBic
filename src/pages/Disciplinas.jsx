@@ -44,6 +44,7 @@ export default function () {
             equipos={equipos}
             imagen="/IMG/basquet.webp"
             url="/basquetbol/equipos"
+            urlRol="/basquetbol/torneo"
           />
           <TarjetaDisciplina
             disciplina="Futbol"

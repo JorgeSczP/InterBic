@@ -12,6 +12,7 @@ import VolibolEquipos from "../pages/VolibolEquipos";
 import ResistenciaEquipos from "../pages/ResistenciaEquipos";
 import VelocidadEquipos from "../pages/VelocidadEquipos";
 import AcademicaEquipos from "../pages/AcademicaEquipos";
+import TorneoBasquet from "../pages/TorneoBasquet";
 
 export default function AppRoutes() {
   return (
@@ -80,12 +81,21 @@ export default function AppRoutes() {
             <VelocidadEquipos />
           </PrivateRoute>
         }
+      
       />
       <Route
         path="/academica/equipos"
         element={
           <PrivateRoute acceso="noAcceso">
             <AcademicaEquipos />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/basquetbol/torneo"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <TorneoBasquet />
           </PrivateRoute>
         }
       />

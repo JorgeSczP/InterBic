@@ -7,6 +7,7 @@ export default function TarjetaDisciplina({
   equipos,
   url,
   urlR,
+  urlRol
 }) {
   const dis = equipos?.find((d) => d.disciplina === disciplina);
 
@@ -33,10 +34,15 @@ export default function TarjetaDisciplina({
             {dis?.total_participantes ?? 0} Participantes
           </span>
         </div>
-        <div className="grid grid-cols-2 space-x-1">
+        <div className="grid grid-cols-2 space-x-1 space-y-1">
           <NavLink to={urlR}>
             <button className="w-full bg-white/10 hover:bg-white/20 backdrop-blur-md text-white py-2 rounded-lg font-bold text-sm transition-all border border-white/10 group-hover:bg-[#2a4ea3] group-hover:border-[#2a4ea3] cursor-pointer">
               Ver Resultados
+            </button>
+          </NavLink>
+          <NavLink to={urlRol}>
+            <button className="w-full bg-white/10 hover:bg-white/20 backdrop-blur-md text-white py-2 rounded-lg font-bold text-sm transition-all border border-white/10 group-hover:bg-[#257bf4] group-hover:border-[#257bf4] cursor-pointer">
+              Ver Rol
             </button>
           </NavLink>
           <NavLink to={url}>
