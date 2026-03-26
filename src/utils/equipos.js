@@ -24,8 +24,8 @@ export const torneoBasquetbolV = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "Bachillerato Integral Comunitario Extensión San Pedro Tulixtlahuaca",
-        visita: "Bachillerato Integral Comunitario Extensión San Pedro Tulixtlahuaca",
+        local: "",
+        visita: "",
         hora: "10:00 - 10:45"
       },
       {
