@@ -27,7 +27,7 @@ export default function VolibolEquipos() {
       <div class="mb-12 max-w-7xl mx-auto px-6">
         <div className="flex w-full justify-center items-center py-4 text-white">
           <h1 className="text-3xl font-bold text-slate-100 mb-2">
-            Equipos Basquetbol
+            Equipos Voleibol
           </h1>
         </div>
         <div className="overflow-x-auto">

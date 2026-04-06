@@ -219,7 +219,7 @@ export default function Inicio() {
 
                 <div className="absolute bottom-0 left-0 p-8">
                   <h5 className="text-2xl font-bold text-white mb-2">
-                    Volibol
+                    Voleibol
                   </h5>
                   <p className="text-white/70 text-sm"></p>x|
                 </div>

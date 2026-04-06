@@ -16,7 +16,7 @@ export default function TorneoVolibol() {
       <div class="mb-4 max-w-7xl mx-auto px-6">
         <div className="flex w-full justify-center items-center py-4 text-white">
           <h1 className="text-3xl font-bold text-slate-900 mb-2">
-            Torneo Basquetbol
+            Torneo Voliebol
           </h1>
         </div>
       </div>
