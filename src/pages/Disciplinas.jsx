@@ -55,7 +55,7 @@ export default function () {
           />
 
           <TarjetaDisciplina
-            disciplina="Voliebol"
+            disciplina="Voleibol"
             equipos={equipos}
             imagen="/IMG/deportiva.webp"
             url="/volibol/equipos"
