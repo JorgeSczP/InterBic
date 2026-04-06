@@ -30,7 +30,7 @@ export const Volibol = async () => {
   const { data, error } = await supabase
     .from("deportes_cantidad")
     .select(`*`)
-    .eq("disciplina", "Volibol");
+    .eq("disciplina", "Voleibol");
 
   if (error) {
     console.error("Error:", error);
