@@ -56,10 +56,10 @@ export const torneoBasquetbolV = [
       },
       {
         nombre: "Juego V",
-        local: "JP1",
+        local: "Perdedor Juego I",
         rL: 0,
         rV: 0,
-        visita: "JP2",
+        visita: "Perdedor Juego II",
         hora: "12:00 - 12:45"
       },
       {
@@ -72,18 +72,18 @@ export const torneoBasquetbolV = [
       },
       {
         nombre: "Juego VII",
-        local: "Janador juego V",
+        local: "Ganador juego V",
         rL: 0,
         rV: 0,
-        visita: "JP3",
+        visita: "Perdedor Juego III",
         hora: "13:30 - 14:15"
       },
       {
         nombre: "Juego VIII",
-        local: "JP4",
+        local: "Perdedor Juego IV",
         rL: 0,
         rV: 0,
-        visita: "JP6",
+        visita: "Perdedor Juego VI",
         hora: "14:15 - 15:00"
       }
     ]
@@ -112,7 +112,7 @@ export const torneoBasquetbolV = [
         local: "Ganador juego X",
         rL: 0,
         rV: 0,
-        visita: "JP9",
+        visita: "Perdedor Juego IX",
         hora: "10:00 - 10:45"
       },
       {
@@ -165,10 +165,10 @@ export const torneoBasquetbolF = [
       },
       {
         nombre: "Juego V",
-        local: "JP1",
+        local: "Perdedor Juego I",
         rL: 0,
         rV: 0,
-        visita: "JP2",
+        visita: "Perdedor Juego II",
         hora: "12:00 - 12:45"
       },
       {
@@ -181,18 +181,18 @@ export const torneoBasquetbolF = [
       },
       {
         nombre: "Juego VII",
-        local: "Janador juego V",
+        local: "Ganador juego V",
         rL: 0,
         rV: 0,
-        visita: "JP3",
+        visita: "Perdedor Juego III",
         hora: "13:30 - 14:15"
       },
       {
         nombre: "Juego VIII",
-        local: "JP4",
+        local: "Perdedor Juego IV",
         rL: 0,
         rV: 0,
-        visita: "JP6",
+        visita: "Perdedor Juego VI",
         hora: "14:15 - 15:00"
       }
     ]
@@ -221,7 +221,7 @@ export const torneoBasquetbolF = [
         local: "Ganador juego X",
         rL: 0,
         rV: 0,
-        visita: "JP9",
+        visita: "Perdedor Juego IX",
         hora: "10:00 - 10:45"
       },
       {
@@ -274,10 +274,10 @@ export const torneoFutbolV = [
       },
       {
         nombre: "Juego V",
-        local: "JP1",
+        local: "Perdedor Juego I",
         rL: 0,
         rV: 0,
-        visita: "JP2",
+        visita: "Perdedor Juego II",
         hora: "12:00 - 12:45"
       },
       {
@@ -290,18 +290,18 @@ export const torneoFutbolV = [
       },
       {
         nombre: "Juego VII",
-        local: "Janador juego V",
+        local: "Ganador juego V",
         rL: 0,
         rV: 0,
-        visita: "JP3",
+        visita: "Perdedor Juego III",
         hora: "13:30 - 14:15"
       },
       {
         nombre: "Juego VIII",
-        local: "JP4",
+        local: "Perdedor Juego IV",
         rL: 0,
         rV: 0,
-        visita: "JP6",
+        visita: "Perdedor Juego VI",
         hora: "14:15 - 15:00"
       }
     ]
@@ -330,7 +330,7 @@ export const torneoFutbolV = [
         local: "Ganador juego X",
         rL: 0,
         rV: 0,
-        visita: "JP9",
+        visita: "Perdedor Juego IX",
         hora: "10:00 - 10:45"
       },
       {
@@ -383,18 +383,18 @@ export const torneoFutbolF = [
       },
       {
         nombre: "Juego V",
-        local: "JP1",
+        local: "Perdedor Juego I",
         rL: 0,
         rV: 0,
-        visita: "JP2",
+        visita: "Perdedor Juego II",
         hora: "12:00 - 12:45"
       },
       {
         nombre: "Juego VI",
-        local: "GP3",
+        local: "Perdedor Juego III",
         rL: 0,
         rV: 0,
-        visita: "JP4",
+        visita: "Perdedor Juego IV",
         hora: "12:45 - 13:30"
       },
       {
@@ -423,7 +423,7 @@ export const torneoFutbolF = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "JP9",
+        visita: "Perdedor Juego IX",
         hora: "08:00 - 08:45"
       },
       {
@@ -492,18 +492,18 @@ export const torneoVolibolV = [
       },
       {
         nombre: "Juego V",
-        local: "JP1",
+        local: "Perdedor Juego I",
         rL: 0,
         rV: 0,
-        visita: "JP2",
+        visita: "Perdedor Juego II",
         hora: "12:00 - 12:45"
       },
       {
         nombre: "Juego VI",
-        local: "GP3",
+        local: "Perdedor Juego III",
         rL: 0,
         rV: 0,
-        visita: "JP4",
+        visita: "Perdedor Juego IV",
         hora: "12:45 - 13:30"
       },
       {
@@ -532,7 +532,7 @@ export const torneoVolibolV = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "JP9",
+        visita: "Perdedor Juego IX",
         hora: "08:00 - 08:45"
       },
       {
@@ -601,18 +601,18 @@ export const torneoVolibolF = [
       },
       {
         nombre: "Juego V",
-        local: "JP1",
+        local: "Perdedor Juego I",
         rL: 0,
         rV: 0,
-        visita: "JP2",
+        visita: "Perdedor Juego II",
         hora: "12:00 - 12:45"
       },
       {
         nombre: "Juego VI",
-        local: "GP3",
+        local: "Perdedor Juego III",
         rL: 0,
         rV: 0,
-        visita: "JP4",
+        visita: "Perdedor Juego IV",
         hora: "12:45 - 13:30"
       },
       {
@@ -641,7 +641,7 @@ export const torneoVolibolF = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "JP9",
+        visita: "Perdedor Juego IX",
         hora: "08:00 - 08:45"
       },
       {
