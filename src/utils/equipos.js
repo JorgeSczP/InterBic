@@ -24,26 +24,26 @@ export const torneoBasquetbolV = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
-        visita: "",
+        local: "COATECAS ALTAS",
+        visita: "SANTA MARÍA CHIMALAPA",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
-        visita: "",
+        local: "SAN LORENZO CUAUNECUILTITLA",
+        visita: "SAN AGUSTÍN TLACOTEPEC",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
-        local: "",
-        visita: "",
+        local: "SANTA MARÍA NUTÍO",
+        visita: "SANTIAGO XOCHILTEPEC",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "Ganador juego I",
-        visita: "",
+        visita: "SANTA MARÍA TEMAXCALAPA",
         hora: "11:15 - 12:00"
       },
       {
@@ -109,26 +109,26 @@ export const torneoBasquetbolF = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
-        visita: "",
+        local: "SAN CRISTÓBAL LACHIRIOAG",
+        visita: "NGU NIYA YANU ZACU KJUABITSIEN",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
-        visita: "",
+        local: "EL CARRIZAL",
+        visita: "SANTA MARÍA NUTIO",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
-        local: "",
-        visita: "",
+        local: "SANTIAGO NUYOÓ",
+        visita: "TEOTITLÁN DEL VALLE",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "Ganador juego I",
-        visita: "",
+        visita: "BENITO JUÁREZ",
         hora: "11:15 - 12:00"
       },
       {
@@ -194,26 +194,26 @@ export const torneoFutbolV = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
-        visita: "",
+        local: "SAN CHISTÓBAL LACHIRIOAG",
+        visita: "AQUILES SERDAN",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
-        visita: "",
+        local: "TEOTITLÁN DEL VALLE",
+        visita: "LA BLANCA",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
-        local: "",
-        visita: "",
+        local: "EL CARRIZAL",
+        visita: "SAN JERÓNIMO NUCHITA",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "Ganador juego I",
-        visita: "",
+        visita: "SAN PEDRO SOCHIAPAM",
         hora: "11:15 - 12:00"
       },
       {
@@ -279,26 +279,26 @@ export const torneoFutbolF = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
-        visita: "",
+        local: "SAN MARTÍN PERAS",
+        visita: "COATECAS ALTAS",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
-        visita: "",
+        local: "NGU NIYA YANU ZACU KJUABITSIEN",
+        visita: "SAN JOSÉ DE LAS FLORES",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
         local: "Ganador juego 1",
-        visita: "",
+        visita: "LA BLANCA",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "Ganador juego 2",
-        visita: "",
+        visita: "EL CARRIZAL",
         hora: "11:15 - 12:00"
       },
       {
@@ -364,26 +364,26 @@ export const torneoVolibolV = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
-        visita: "",
+        local: "SAN JERÓNIMO NUCHITA",
+        visita: "EL CARRIZAL",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
-        visita: "",
+        local: "SAN PEDRO SOCHIAPAM",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
         local: "Ganador juego 1",
-        visita: "",
+        visita: "LA BLANCA",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "Ganador juego 2",
-        visita: "",
+        visita: "SAN VICENTE COATLÁN",
         hora: "11:15 - 12:00"
       },
       {
@@ -449,26 +449,26 @@ export const torneoVolibolF = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
-        visita: "",
+        local: "SAN JERÓNIMO NUCHITA",
+        visita: "EL GACHUPÍN",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
-        visita: "",
+        local: "LLANO VÍBORA",
+        visita: "SAN MIGUEL CHIMALAPA",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
         local: "Ganador juego 1",
-        visita: "",
+        visita: "SAN PEDRO SOCHIAPAM",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "Ganador juego 2",
-        visita: "",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "11:15 - 12:00"
       },
       {
