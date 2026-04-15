@@ -31,12 +31,18 @@ export default function Inicio() {
               >
                 Registro de Estudiantes
               </NavLink>
-              <a
+              <NavLink
                 className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold border border-white/20 rounded-xl text-center hover:bg-white/20 transition-all"
-                href="#disciplinas"
+                to={"/programacion"}
+              >
+                Ver Programación
+              </NavLink>
+              <NavLink
+                className="px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-bold border border-white/20 rounded-xl text-center hover:bg-white/20 transition-all"
+                to={"/disciplinas"}
               >
                 Ver Disciplinas
-              </a>
+              </NavLink>
             </div>
           </div>
           <div className="hidden lg:flex relative h-150 w-full items-center justify-center">
