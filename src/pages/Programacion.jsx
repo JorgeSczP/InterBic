@@ -21,7 +21,7 @@ export default function Programacion() {
         </div>
   
         
-        <section className="mb-24 max-w-7xl mx-auto px-6">
+        <section className="mb-24 max-w-7xl mx-auto px-6 items-center">
           {data.map((dia, index) => (
             <div key={index} className="mb-10">
               <div className="flex items-baseline justify-between mb-10">
