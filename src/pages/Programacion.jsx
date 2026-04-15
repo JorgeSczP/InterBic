@@ -30,10 +30,12 @@ export default function Programacion() {
               </h3>
             </div>
 
-            <div className="space-y-8">
-              {dia.actividad.map((act, i) => (
-                <CardActividad index={i} act={act} />
-              ))}
+            <div className="flex justify-center">
+              <div className="space-y-8 min-w-full md:min-w-3xl">
+                {dia.actividad.map((act, i) => (
+                  <CardActividad index={i} act={act} />
+                ))}
+              </div>
             </div>
           </div>
         ))}
