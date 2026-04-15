@@ -4,6 +4,7 @@ export const programacion = [
     actividad: [
       {
         actividad: "Recepción de planteles",
+        lugar: "Entrada por Primera Priv. Brasil",
         hora: "18:00 a 19:00"
       },
       {
@@ -107,7 +108,7 @@ export const programacion = [
         hora: "12:00 a 14:00"
       },
       {
-        actividad: "Premiación",
+        actividad: "Clausura y Premiación",
         lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "14:30"
       }
