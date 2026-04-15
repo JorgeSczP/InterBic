@@ -16,6 +16,8 @@ import TorneoBasquet from "../pages/TorneoBasquet";
 import TorneoFutbol from "../pages/TorneoFutbol";
 import TorneoVolibol from "../pages/TorneoVolibol";
 import EstudiantesPorDeporte from "../pages/EstudiantesPorDeporte";
+import TorneoVelocidad from "../pages/TorneoVelocidad";
+import Programacion from "../pages/Programacion";
 
 export default function AppRoutes() {
   return (
@@ -34,6 +36,14 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <Inicio />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/programacion"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <Programacion />
           </PrivateRoute>
         }
       />
@@ -122,6 +132,14 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <TorneoVolibol />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/velocidad/torneo"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <TorneoVelocidad />
           </PrivateRoute>
         }
       />

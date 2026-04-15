@@ -26,10 +26,16 @@ export default function NavBar() {
         </div>
 
         <div className="hidden lg:flex items-center gap-8 text-sm font-semibold text-white/90">
-          <a className="hover:text-brand-orange transition-colors" href="/">
+          <NavLink to="/"
+            className="hover:text-brand-orange transition-colors">
             Inicio
-          </a>
-
+          </NavLink>
+          <NavLink
+            to="/programacion"
+            className="hover:text-brand-orange transition-colors"
+          >
+            Programación
+          </NavLink>
           <NavLink
             to="/disciplinas"
             className="hover:text-brand-orange transition-colors"

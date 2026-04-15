@@ -74,6 +74,7 @@ export default function () {
             equipos={equipos}
             imagen="/IMG/velocidad.webp"
             url="/velocidad/equipos"
+            urlRol="/velocidad/torneo"
           />
         </div>
 
