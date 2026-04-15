@@ -25,11 +25,11 @@ export const programacion = [
         hora: "08:00 am"
       },
       {
-        actividad: "Inicio de torneo: Basquetbol, Futbol, Voleibol",
+        actividad: "Inicio de torneo: Básquetbol, Fútbol, Voleibol",
         hora: "09:00 am"
       },
       {
-        actividad: "Actividad académica",
+        actividad: "Actividad académica: Fase 1",
         hora: "12:00 a 13:30 hrs"
       },
       {
@@ -60,11 +60,11 @@ export const programacion = [
         hora: "07:00 am"
       },
       {
-        actividad: "Inicio de torneo Basquetbol, Futbol, Voleibol",
+        actividad: "Inicio de torneo Básquetbol, Fútbol, Voleibol",
         hora: "08:00 am"
       },
       {
-        actividad: "Actividad académica",
+        actividad: "Actividad académica: Fase 2",
         hora: "08:00 a 11:00 am"
       },
       {
