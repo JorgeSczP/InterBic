@@ -49,7 +49,7 @@ export const programacion = [
     ]
   },
   {
-    fecha: "Martes 2 de abril 2026",
+    fecha: "Martes 28 de abril 2026",
     actividad: [
       {
         actividad: "Desayuno",
