@@ -26,8 +26,7 @@ export default function NavBar() {
         </div>
 
         <div className="hidden lg:flex items-center gap-8 text-sm font-semibold text-white/90">
-          <NavLink to="/"
-            className="hover:text-brand-orange transition-colors">
+          <NavLink to="/" className="hover:text-brand-orange transition-colors">
             Inicio
           </NavLink>
           <NavLink
@@ -99,13 +98,15 @@ export default function NavBar() {
 
       {open && (
         <div className="lg:hidden bg-brand-navy px-6 pb-4 flex flex-col gap-4 text-white font-semibold">
-          <a
-            href="/"
-            className="hover:text-brand-orange"
-            onClick={() => setOpen(false)}
-          >
+          <NavLink to="/" className="hover:text-brand-orange transition-colors">
             Inicio
-          </a>
+          </NavLink>
+          <NavLink
+            to="/programacion"
+            className="hover:text-brand-orange transition-colors"
+          >
+            Programación
+          </NavLink>
 
           <NavLink
             to="/disciplinas"
