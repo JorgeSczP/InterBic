@@ -11,8 +11,8 @@ export default function CardActividad({ act }) {
       <div className="grow p-6 flex items-center justify-between">
         <div className="flex items-center gap-6">
           <div>
-            <p className="text-[10px] text-[#ffb786] uppercase font-bold tracking-widest mb-1">
-              
+            <p className="text-[10px] text-slate-700 font-bold tracking-widest mb-1">
+              {act.lugar}
             </p>
             <h3 className="text-xl font-bold text-slate-800">
               {act.actividad}

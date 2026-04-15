@@ -8,6 +8,7 @@ export const programacion = [
       },
       {
         actividad: "Cena",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "18:30 a 20:00"
       }
 
@@ -18,14 +19,27 @@ export const programacion = [
     actividad: [
       {
         actividad: "Desayuno",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "6:00 a 07:00"
       },
       {
         actividad: "Acto protocolario (inaguración)",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "08:00"
       },
       {
-        actividad: "Inicio de torneo: Básquetbol, Fútbol, Voleibol",
+        actividad: "Básquetbol",
+        lugar: "Femenil: Cancha 1 Flores Magón (Interior), Varonil: Cancha 3 Polideportivo (Exterior)",
+        hora: "09:00"
+      },
+      {
+        actividad: "Fútbol",
+        lugar: "Femenil: Cancha 5 Polideportivo (Exterior), Varonil: Cancha 6 Polideportivo (Exterior)",
+        hora: "09:00"
+      },
+      {
+        actividad: "Voleibol",
+        lugar: "Femenil: Cancha 2 Flores Magón (Interior), Varonil: Cancha 4 Polideportivo (Exterior)",
         hora: "09:00"
       },
       {
@@ -34,17 +48,24 @@ export const programacion = [
       },
       {
         actividad: "Comida",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "13:00 a 15:00"
       },
       {
         actividad: "Actividad cultural (calenda)",
-        des: "Punto de concentración: iglesia de Santo domingo de Guzman, Oaxaca, centro",
+        lugar: "Iglesia de Santo domingo de Guzman, Oaxaca, centro",
         hora: "17:00"
       },
       {
-        actividad: "Retorno para pernocta. Complejo Hermanos Flores Magón",
-        hora: "6:00 a 07:00"
-      }
+        actividad: "Retorno para pernocta",
+        lugar: "Complejo Hermanos Flores Magón",
+        hora: "19:00"
+      },
+      {
+        actividad: "Cena",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
+        hora: ""
+      },
 
     ]
   },
@@ -53,6 +74,7 @@ export const programacion = [
     actividad: [
       {
         actividad: "Desayuno",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "06:00 a 07:30"
       },
       {
@@ -69,10 +91,12 @@ export const programacion = [
       },
       {
         actividad: "Comida",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "12:00 a 14:00"
       },
       {
         actividad: "Premiación",
+        lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "14:30"
       }
 
