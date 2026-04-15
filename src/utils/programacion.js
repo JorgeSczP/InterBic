@@ -79,10 +79,22 @@ export const programacion = [
       },
       {
         actividad: "Inicio de Resistencia y Velocidad",
+        lugar: "Pista de tartán en el polideportivo",
         hora: "07:00"
       },
       {
-        actividad: "Inicio de torneo Básquetbol, Fútbol, Voleibol",
+        actividad: "Básquetbol",
+        lugar: "Femenil: Cancha 1 Flores Magón (Interior), Varonil: Cancha 3 Polideportivo (Exterior)",
+        hora: "08:00"
+      },
+      {
+        actividad: "Fútbol",
+        lugar: "Femenil: Cancha 5 Polideportivo (Exterior), Varonil: Cancha 6 Polideportivo (Exterior)",
+        hora: "08:00"
+      },
+      {
+        actividad: "Voleibol",
+        lugar: "Femenil: Cancha 2 Flores Magón (Interior), Varonil: Cancha 4 Polideportivo (Exterior)",
         hora: "08:00"
       },
       {
