@@ -1,6 +1,5 @@
 import React from "react";
 import TablaEquipo from "../components/TablaEquipo";
-import { basquetEquipos } from "../utils/equipos";
 import { useState } from "react";
 import { useEffect } from "react";
 import { BasquetBol } from "../service/Equipos";

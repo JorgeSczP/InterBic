@@ -1,6 +1,5 @@
 import { useState } from "react";
 import TablaEquipo from "../components/TablaEquipo";
-import { futbolEquipos } from "../utils/equipos";
 import { useEffect } from "react";
 import { Futbol } from "../service/Equipos";
 
