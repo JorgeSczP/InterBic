@@ -96,7 +96,7 @@ export const torneoBasquetbolV = [
         hora: "10:00 - 10:45"
       },
       {
-        nombre: "Juego XII Final",
+        nombre: "Juego XII Final *",
         local: "Ganador juego IX",
         rL: 0,
         rV: 0,
@@ -294,15 +294,15 @@ export const torneoBasquetbolF = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IX",
+        visita: "Perdedor Juego VII",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego",
+        local: "Ganador juego VII",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego",
+        visita: "Ganador juego IX",
         hora: "04:45 - 09:30"
       },
       // {
@@ -423,7 +423,7 @@ export const torneoFutbolV = [
         hora: "10:00 - 10:45"
       },
       {
-        nombre: "Juego XII Final",
+        nombre: "Juego XII Final *",
         local: "Ganador juego IX",
         rL: 0,
         rV: 0,
@@ -512,33 +512,33 @@ export const torneoFutbolF = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IX",
+        visita: "Perdedor Juego VII",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego",
+        local: "Ganador juego VII",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego",
+        visita: "Ganador juego IX",
         hora: "04:45 - 09:30"
       },
-      {
-        nombre: "Juego XI",
-        local: "",
-        rL: 0,
-        rV: 0,
-        visita: "",
-        hora: "10:00 - 10:45"
-      },
-      {
-        nombre: "Juego XII Final *",
-        local: "",
-        rL: 0,
-        rV: 0,
-        visita: "",
-        hora: "10:45 - 11:30"
-      }
+      // {
+      //   nombre: "Juego XI",
+      //   local: "",
+      //   rL: 0,
+      //   rV: 0,
+      //   visita: "",
+      //   hora: "10:00 - 10:45"
+      // },
+      // {
+      //   nombre: "Juego XII Final *",
+      //   local: "",
+      //   rL: 0,
+      //   rV: 0,
+      //   visita: "",
+      //   hora: "10:45 - 11:30"
+      // }
     ]
   }
 ];
@@ -621,33 +621,33 @@ export const torneoVolibolV = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IX",
+        visita: "Perdedor Juego VII",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego",
+        local: "Ganador juego VII",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego",
+        visita: "Ganador juego IX",
         hora: "04:45 - 09:30"
       },
-      {
-        nombre: "Juego XI",
-        local: "",
-        rL: 0,
-        rV: 0,
-        visita: "",
-        hora: "10:00 - 10:45"
-      },
-      {
-        nombre: "Juego XII Final *",
-        local: "",
-        rL: 0,
-        rV: 0,
-        visita: "",
-        hora: "10:45 - 11:30"
-      }
+      // {
+      //   nombre: "Juego XI",
+      //   local: "",
+      //   rL: 0,
+      //   rV: 0,
+      //   visita: "",
+      //   hora: "10:00 - 10:45"
+      // },
+      // {
+      //   nombre: "Juego XII Final *",
+      //   local: "",
+      //   rL: 0,
+      //   rV: 0,
+      //   visita: "",
+      //   hora: "10:45 - 11:30"
+      // }
     ]
   }
 ];
@@ -730,33 +730,33 @@ export const torneoVolibolF = [
         local: "Ganador juego VIII",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IX",
+        visita: "Perdedor Juego VII",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego",
+        local: "Ganador juego VII",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego",
+        visita: "Ganador juego IX",
         hora: "04:45 - 09:30"
       },
-      {
-        nombre: "Juego XI",
-        local: "",
-        rL: 0,
-        rV: 0,
-        visita: "",
-        hora: "10:00 - 10:45"
-      },
-      {
-        nombre: "Juego XII Final *",
-        local: "",
-        rL: 0,
-        rV: 0,
-        visita: "",
-        hora: "10:45 - 11:30"
-      }
+      // {
+      //   nombre: "Juego XI",
+      //   local: "",
+      //   rL: 0,
+      //   rV: 0,
+      //   visita: "",
+      //   hora: "10:00 - 10:45"
+      // },
+      // {
+      //   nombre: "Juego XII Final *",
+      //   local: "",
+      //   rL: 0,
+      //   rV: 0,
+      //   visita: "",
+      //   hora: "10:45 - 11:30"
+      // }
     ]
   }
 ];
