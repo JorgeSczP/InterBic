@@ -222,18 +222,18 @@ export const torneoBasquetbolF = [
     juegos: [
       {
         nombre: "Juego I",
-        local: "",
+        local: "NGU NIYA YANU ZACU KJUABITSIEN",
         rL: 0,
         rV: 0,
-        visita: "",
+        visita: "SAN CRISTÓBAL LACHIRIOAG",
         hora: "09:00 - 09:45"
       },
       {
         nombre: "Juego II",
-        local: "",
+        local: "EL CARRIZAL",
         rL: 0,
         rV: 0,
-        visita: "",
+        visita: "SANTIAGO NUYOÓ",
         hora: "09:45 - 10:30"
       },
       {
@@ -241,7 +241,7 @@ export const torneoBasquetbolF = [
         local: "Ganador juego 1",
         rL: 0,
         rV: 0,
-        visita: "",
+        visita: "TEOTITLÁN DEL VALLE",
         hora: "10:30 - 11:15"
       },
       {
@@ -249,7 +249,7 @@ export const torneoBasquetbolF = [
         local: "Ganador juego 2",
         rL: 0,
         rV: 0,
-        visita: "",
+        visita: "SANTA MARÍA NUTIO",
         hora: "11:15 - 12:00"
       },
       {
