@@ -21,7 +21,11 @@ export default function NavBar() {
           </picture>
           {/* <img src="/IMG/logo.webp" className="h-8 sm:h-12"/> */}
           <span className="text-white font-extrabold text-2xl tracking-tighter italic uppercase absolute  inset-e-7">
-            Inter<span className="text-brand-orange">Bic</span>
+            {/* Inter<span className="text-brand-orange">Bic</span> */}
+            <picture>
+              <source media="(min-width: 640px)" srcSet="/IMG/interbic.webp" />
+              <img src="/IMG/interbic.webp" className="h-14 sm:h-14" />
+            </picture>
           </span>
         </div>
 
