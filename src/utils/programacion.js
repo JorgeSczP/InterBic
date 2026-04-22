@@ -48,15 +48,20 @@ export const programacion = [
         hora: "13:00 a 15:00"
       },
       {
-        actividad: "Actividad cultural (calenda)",
-        lugar: "Iglesia de Santo domingo de Guzman, Oaxaca, centro",
-        hora: "17:00"
+        actividad: "Actividades Deportivas",
+        lugar: "Interior del Complejo Deportivo",
+        hora: "16:00"
       },
-      {
-        actividad: "Retorno para pernocta",
-        lugar: "Complejo Hermanos Flores Magón",
-        hora: "19:00"
-      },
+      // {
+      //   actividad: "Actividad cultural (calenda)",
+      //   lugar: "Iglesia de Santo domingo de Guzman, Oaxaca, centro",
+      //   hora: "17:00"
+      // },
+      // {
+      //   actividad: "Retorno para pernocta",
+      //   lugar: "Complejo Hermanos Flores Magón",
+      //   hora: "19:00"
+      // },
       {
         actividad: "Cena",
         lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
