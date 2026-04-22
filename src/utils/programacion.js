@@ -40,7 +40,8 @@ export const programacion = [
       },
       {
         actividad: "Actividad académica: Fase 1",
-        hora: "12:00 a 13:30"
+        hora: "12:00 a 13:30",
+        lugar: "Cancha adjunta en el complejo"
       },
       {
         actividad: "Comida",
@@ -100,7 +101,8 @@ export const programacion = [
       },
       {
         actividad: "Actividad académica: Fase 2",
-        hora: "08:00 a 11:00"
+        hora: "08:00 a 11:00",
+        lugar: "Cancha adjunta en el complejo"
       },
       {
         actividad: "Clausura y Premiación",
@@ -112,7 +114,7 @@ export const programacion = [
         lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "12:30"
       },
-      
+
 
     ]
   },
