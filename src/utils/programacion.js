@@ -3,9 +3,9 @@ export const programacion = [
     fecha: "Domingo 26 de abril 2026",
     actividad: [
       {
-        actividad: "Recepción de planteles / Entrega de box lonch",
+        actividad: "Recepción de planteles / Entrega de Box Lunch",
         lugar: "Entrada por Primera Priv. Brasil",
-        hora: "18:00 a 19:00"
+        hora: "19:00 a 20:00"
       },
 
     ]
@@ -16,10 +16,10 @@ export const programacion = [
       {
         actividad: "Desayuno",
         lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
-        hora: "6:00 a 07:00"
+        hora: "06:00 a 07:00"
       },
       {
-        actividad: "Acto protocolario (inaguración)",
+        actividad: "Acto protocolario (Inaguración)",
         lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: "08:00"
       },
@@ -64,7 +64,7 @@ export const programacion = [
       //   hora: "19:00"
       // },
       {
-        actividad: "Cena",
+        actividad: "Box Lunch",
         lugar: "Interior del Complejo Deportivo Hermanos Flores Magon",
         hora: ""
       },
