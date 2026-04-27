@@ -699,8 +699,8 @@ export const torneoVolibolF = [
       {
         nombre: "Juego VI",
         local: "SAN PEDRO SOCHIAPAM",
-        rL: 0,
-        rV: 0,
+        rL: 50,
+        rV: 34,
         visita: "LLANO VÍBORA",
         hora: "12:45 - 13:30"
       },
