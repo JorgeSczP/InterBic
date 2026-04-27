@@ -47,7 +47,7 @@ export const torneoBasquetbolV = [
         local: "SAN LORENZO CUAUNECUILTITLA",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego III",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "12:45 - 13:30"
       },
       {
@@ -55,12 +55,12 @@ export const torneoBasquetbolV = [
         local: "Ganador juego V",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego III",
+        visita: "SANTIAGO XOCHILTEPEC",
         hora: "13:30 - 14:15"
       },
       {
         nombre: "Juego VIII",
-        local: "Perdedor Juego IV",
+        local: "COATECAS ALTAS",
         rL: 0,
         rV: 0,
         visita: "Perdedor Juego VI",
@@ -270,7 +270,7 @@ export const torneoBasquetbolF = [
       },
       {
         nombre: "Juego VII",
-        local: "Ganador juego III",
+        local: "SAN CRISTÓBAL LACHIRIOAG",
         rL: 0,
         rV: 0,
         visita: "Ganador juego IV",
@@ -480,7 +480,7 @@ export const torneoFutbolF = [
       },
       {
         nombre: "Juego VI",
-        local: "Perdedor Juego III",
+        local: "LA BLANCA",
         rL: 0,
         rV: 0,
         visita: "Perdedor Juego IV",
@@ -488,7 +488,7 @@ export const torneoFutbolF = [
       },
       {
         nombre: "Juego VII",
-        local: "Ganador juego III",
+        local: "SAN MARTÍN PERAS",
         rL: 0,
         rV: 0,
         visita: "Ganador juego IV",
