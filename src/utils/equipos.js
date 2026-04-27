@@ -332,8 +332,8 @@ export const torneoFutbolV = [
       {
         nombre: "Juego I",
         local: "SAN CHISTÓBAL LACHIRIOAG",
-        rL: 0,
-        rV: 0,
+        rL: 2,
+        rV: 9,
         visita: "AQUILES SERDAN",
         hora: "09:00 - 09:45"
       },
@@ -355,7 +355,7 @@ export const torneoFutbolV = [
       },
       {
         nombre: "Juego IV",
-        local: "Ganador juego I",
+        local: "AQUILES SERDAN",
         rL: 0,
         rV: 0,
         visita: "SAN PEDRO SOCHIAPAM",
