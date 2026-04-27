@@ -340,8 +340,8 @@ export const torneoFutbolV = [
       {
         nombre: "Juego II",
         local: "TEOTITLÁN DEL VALLE",
-        rL: 0,
-        rV: 0,
+        rL: 7,
+        rV: 1,
         visita: "LA BLANCA",
         hora: "09:45 - 10:30"
       },
@@ -363,10 +363,10 @@ export const torneoFutbolV = [
       },
       {
         nombre: "Juego V",
-        local: "Perdedor Juego I",
+        local: "SAN CHISTÓBAL LACHIRIOAG",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego II",
+        visita: "LA BLANCA",
         hora: "12:00 - 12:45"
       },
       {
@@ -558,8 +558,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego II",
         local: "SAN PEDRO SOCHIAPAM",
-        rL: 0,
-        rV: 0,
+        rL: 52,
+        rV: 56,
         visita: "SANTA MARÍA NUTÍO",
         hora: "09:45 - 10:30"
       },
@@ -573,7 +573,7 @@ export const torneoVolibolV = [
       },
       {
         nombre: "Juego IV",
-        local: "Ganador juego 2",
+        local: "SANTA MARÍA NUTÍO",
         rL: 0,
         rV: 0,
         visita: "SAN VICENTE COATLÁN",
