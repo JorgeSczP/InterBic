@@ -348,8 +348,8 @@ export const torneoFutbolV = [
       {
         nombre: "Juego III",
         local: "EL CARRIZAL",
-        rL: 0,
-        rV: 0,
+        rL: 4,
+        rV: 2,
         visita: "SAN JERÓNIMO NUCHITA",
         hora: "10:30 - 11:15"
       },
@@ -371,10 +371,10 @@ export const torneoFutbolV = [
       },
       {
         nombre: "Juego VI",
-        local: "Ganador juego II",
+        local: "TEOTITLÁN DEL VALLE",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego III",
+        visita: "EL CARRIZAL",
         hora: "12:45 - 13:30"
       },
       {
@@ -690,10 +690,10 @@ export const torneoVolibolF = [
       },
       {
         nombre: "Juego V",
-        local: "Perdedor Juego I",
+        local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego II",
+        visita: "SAN MIGUEL CHIMALAPA",
         hora: "12:00 - 12:45"
       },
       {
