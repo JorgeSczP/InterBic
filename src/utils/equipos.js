@@ -574,8 +574,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego IV",
         local: "SANTA MARÍA NUTÍO",
-        rL: 0,
-        rV: 0,
+        rL: 19,
+        rV: 40,
         visita: "SAN VICENTE COATLÁN",
         hora: "11:15 - 12:00"
       },
