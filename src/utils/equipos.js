@@ -598,8 +598,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego VII",
         local: "LA BLANCA",
-        rL: 0,
-        rV: 0,
+        rL: 28,
+        rV: 40,
         visita: "SAN VICENTE COATLÁN",
         hora: "13:30 - 14:15"
       },
