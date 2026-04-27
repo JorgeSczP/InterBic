@@ -457,7 +457,7 @@ export const torneoFutbolF = [
       {
         nombre: "Juego III",
         local: "SAN MARTÍN PERAS",
-        rL: 7,
+        rL: 8,
         rV: 0,
         visita: "LA BLANCA",
         hora: "10:30 - 11:15"
@@ -489,7 +489,7 @@ export const torneoFutbolF = [
       {
         nombre: "Juego VII",
         local: "SAN MARTÍN PERAS",
-        rL: 0,
+        rL: 1,
         rV: 0,
         visita: "SAN JOSÉ DE LAS FLORES",
         hora: "13:30 - 14:15"
@@ -498,7 +498,7 @@ export const torneoFutbolF = [
         nombre: "Juego VIII",
         local: "COATECAS ALTAS",
         rL: 0,
-        rV: 0,
+        rV: 3,
         visita: "EL CARRIZAL",
         hora: "14:15 - 15:00"
       }
@@ -509,15 +509,15 @@ export const torneoFutbolF = [
     juegos: [
       {
         nombre: "Juego IX",
-        local: "Ganador juego VIII",
+        local: "EL CARRIZAL",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego VII",
+        visita: "SAN JOSÉ DE LAS FLORES",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego VII",
+        local: "SAN MARTÍN PERAS",
         rL: 0,
         rV: 0,
         visita: "Ganador juego IX",
