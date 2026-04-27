@@ -5,8 +5,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego I",
         local: "COATECAS ALTAS",
-        rL: 0,
-        rV: 0,
+        rL: 93,
+        rV: 8,
         visita: "SANTA MARÍA CHIMALAPA",
         hora: "09:00 - 09:45"
       },
@@ -28,7 +28,7 @@ export const torneoBasquetbolV = [
       },
       {
         nombre: "Juego IV",
-        local: "Ganador juego I",
+        local: "COATECAS ALTAS",
         rL: 0,
         rV: 0,
         visita: "SANTA MARÍA TEMAXCALAPA",
@@ -223,8 +223,8 @@ export const torneoBasquetbolF = [
       {
         nombre: "Juego I",
         local: "NGU NIYA YANU ZACU KJUABITSIEN",
-        rL: 0,
-        rV: 0,
+        rL: 4,
+        rV: 28,
         visita: "SAN CRISTÓBAL LACHIRIOAG",
         hora: "09:00 - 09:45"
       },
@@ -238,7 +238,7 @@ export const torneoBasquetbolF = [
       },
       {
         nombre: "Juego III",
-        local: "Ganador juego 1",
+        local: "SAN CRISTÓBAL LACHIRIOAG",
         rL: 0,
         rV: 0,
         visita: "TEOTITLÁN DEL VALLE",
