@@ -441,8 +441,8 @@ export const torneoFutbolF = [
       {
         nombre: "Juego I",
         local: "SAN MARTÍN PERAS",
-        rL: 3,
-        rV: 2,
+        rL: 2,
+        rV: 1,
         visita: "COATECAS ALTAS",
         hora: "09:00 - 09:45"
       },
@@ -566,8 +566,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego III",
         local: "SAN JERÓNIMO NUCHITA",
-        rL: 0,
-        rV: 0,
+        rL: 35,
+        rV: 40,
         visita: "LA BLANCA",
         hora: "10:30 - 11:15"
       },
@@ -581,15 +581,15 @@ export const torneoVolibolV = [
       },
       {
         nombre: "Juego V",
-        local: "Perdedor Juego I",
+        local: "EL CARRIZAL",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego II",
+        visita: "SAN PEDRO SOCHIAPAM",
         hora: "12:00 - 12:45"
       },
       {
         nombre: "Juego VI",
-        local: "Perdedor Juego III",
+        local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
         visita: "Perdedor Juego IV",
