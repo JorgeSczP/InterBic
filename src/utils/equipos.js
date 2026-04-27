@@ -107,114 +107,114 @@ export const torneoBasquetbolV = [
   }
 ];
 
-export const torneoBasquetbolF2 = [
-  {
-    fecha: "Lunes 27 de abril 2026",
-    juegos: [
-      {
-        nombre: "Juego I",
-        local: "SAN CRISTÓBAL LACHIRIOAG",
-        rL: 0,
-        rV: 0,
-        visita: "NGU NIYA YANU ZACU KJUABITSIEN",
-        hora: "09:00 - 09:45"
-      },
-      {
-        nombre: "Juego II",
-        local: "EL CARRIZAL",
-        rL: 0,
-        rV: 0,
-        visita: "SANTA MARÍA NUTIO",
-        hora: "09:45 - 10:30"
-      },
-      {
-        nombre: "Juego III",
-        local: "SANTIAGO NUYOÓ",
-        rL: 0,
-        rV: 0,
-        visita: "TEOTITLÁN DEL VALLE",
-        hora: "10:30 - 11:15"
-      },
-      {
-        nombre: "Juego IV",
-        local: "Ganador juego I",
-        rL: 0,
-        rV: 0,
-        visita: "BENITO JUÁREZ",
-        hora: "11:15 - 12:00"
-      },
-      {
-        nombre: "Juego V",
-        local: "Perdedor Juego I",
-        rL: 0,
-        rV: 0,
-        visita: "Perdedor Juego II",
-        hora: "12:00 - 12:45"
-      },
-      {
-        nombre: "Juego VI",
-        local: "Ganador juego II",
-        rL: 0,
-        rV: 0,
-        visita: "Ganador juego III",
-        hora: "12:45 - 13:30"
-      },
-      {
-        nombre: "Juego VII",
-        local: "Ganador juego V",
-        rL: 0,
-        rV: 0,
-        visita: "Perdedor Juego III",
-        hora: "13:30 - 14:15"
-      },
-      {
-        nombre: "Juego VIII",
-        local: "Perdedor Juego IV",
-        rL: 0,
-        rV: 0,
-        visita: "Perdedor Juego VI",
-        hora: "14:15 - 15:00"
-      }
-    ]
-  },
-  {
-    fecha: "Martes 28 de abril 2026",
-    juegos: [
-      {
-        nombre: "Juego IX",
-        local: "Ganador juego IV",
-        rL: 0,
-        rV: 0,
-        visita: "Ganador juego VI",
-        hora: "08:00 - 08:45"
-      },
-      {
-        nombre: "Juego X",
-        local: "Ganador juego VII",
-        rL: 0,
-        rV: 0,
-        visita: "Ganador juego VIII",
-        hora: "04:45 - 09:30"
-      },
-      {
-        nombre: "Juego XI",
-        local: "Ganador juego X",
-        rL: 0,
-        rV: 0,
-        visita: "Perdedor Juego IX",
-        hora: "10:00 - 10:45"
-      },
-      {
-        nombre: "Juego XII Final",
-        local: "Ganador juego IX",
-        rL: 0,
-        rV: 0,
-        visita: "Ganador juego XI",
-        hora: "10:45 - 11:30"
-      }
-    ]
-  }
-];
+// export const torneoBasquetbolF2 = [
+//   {
+//     fecha: "Lunes 27 de abril 2026",
+//     juegos: [
+//       {
+//         nombre: "Juego I",
+//         local: "SAN CRISTÓBAL LACHIRIOAG",
+//         rL: 0,
+//         rV: 0,
+//         visita: "NGU NIYA YANU ZACU KJUABITSIEN",
+//         hora: "09:00 - 09:45"
+//       },
+//       {
+//         nombre: "Juego II",
+//         local: "EL CARRIZAL",
+//         rL: 0,
+//         rV: 0,
+//         visita: "SANTA MARÍA NUTIO",
+//         hora: "09:45 - 10:30"
+//       },
+//       {
+//         nombre: "Juego III",
+//         local: "SANTIAGO NUYOÓ",
+//         rL: 0,
+//         rV: 0,
+//         visita: "TEOTITLÁN DEL VALLE",
+//         hora: "10:30 - 11:15"
+//       },
+//       {
+//         nombre: "Juego IV",
+//         local: "Ganador juego I",
+//         rL: 0,
+//         rV: 0,
+//         visita: "BENITO JUÁREZ",
+//         hora: "11:15 - 12:00"
+//       },
+//       {
+//         nombre: "Juego V",
+//         local: "Perdedor Juego I",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Perdedor Juego II",
+//         hora: "12:00 - 12:45"
+//       },
+//       {
+//         nombre: "Juego VI",
+//         local: "Ganador juego II",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Ganador juego III",
+//         hora: "12:45 - 13:30"
+//       },
+//       {
+//         nombre: "Juego VII",
+//         local: "Ganador juego V",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Perdedor Juego III",
+//         hora: "13:30 - 14:15"
+//       },
+//       {
+//         nombre: "Juego VIII",
+//         local: "Perdedor Juego IV",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Perdedor Juego VI",
+//         hora: "14:15 - 15:00"
+//       }
+//     ]
+//   },
+//   {
+//     fecha: "Martes 28 de abril 2026",
+//     juegos: [
+//       {
+//         nombre: "Juego IX",
+//         local: "Ganador juego IV",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Ganador juego VI",
+//         hora: "08:00 - 08:45"
+//       },
+//       {
+//         nombre: "Juego X",
+//         local: "Ganador juego VII",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Ganador juego VIII",
+//         hora: "04:45 - 09:30"
+//       },
+//       {
+//         nombre: "Juego XI",
+//         local: "Ganador juego X",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Perdedor Juego IX",
+//         hora: "10:00 - 10:45"
+//       },
+//       {
+//         nombre: "Juego XII Final",
+//         local: "Ganador juego IX",
+//         rL: 0,
+//         rV: 0,
+//         visita: "Ganador juego XI",
+//         hora: "10:45 - 11:30"
+//       }
+//     ]
+//   }
+// ];
 
 export const torneoBasquetbolF = [
   {
@@ -550,8 +550,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego I",
         local: "SAN JERÓNIMO NUCHITA",
-        rL: 0,
-        rV: 0,
+        rL: 50,
+        rV: 34,
         visita: "EL CARRIZAL",
         hora: "09:00 - 09:45"
       },
@@ -565,7 +565,7 @@ export const torneoVolibolV = [
       },
       {
         nombre: "Juego III",
-        local: "Ganador juego 1",
+        local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
         visita: "LA BLANCA",
