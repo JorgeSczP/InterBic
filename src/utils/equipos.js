@@ -45,8 +45,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego VI",
         local: "SAN LORENZO CUAUNECUILTITLA",
-        rL: 11,
-        rV: 34,
+        rL: 16,
+        rV: 25,
         visita: "SANTA MARÍA NUTÍO",
         hora: "12:45 - 13:30"
       },
@@ -263,8 +263,8 @@ export const torneoBasquetbolF = [
       {
         nombre: "Juego VI",
         local: "TEOTITLÁN DEL VALLE",
-        rL: 0,
-        rV: 0,
+        rL: 10,
+        rV: 34,
         visita: "EL CARRIZAL",
         hora: "12:45 - 13:30"
       },
@@ -281,7 +281,7 @@ export const torneoBasquetbolF = [
         local: "SANTIAGO NUYOÓ",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego VI",
+        visita: "EL CARRIZAL",
         hora: "14:15 - 15:00"
       }
     ]
@@ -372,8 +372,8 @@ export const torneoFutbolV = [
       {
         nombre: "Juego VI",
         local: "TEOTITLÁN DEL VALLE",
-        rL: 0,
-        rV: 0,
+        rL: 6,
+        rV: 1,
         visita: "EL CARRIZAL",
         hora: "12:45 - 13:30"
       },
@@ -390,7 +390,7 @@ export const torneoFutbolV = [
         local: "SAN PEDRO SOCHIAPAM",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego VI",
+        visita: "EL CARRIZAL",
         hora: "14:15 - 15:00"
       }
     ]
@@ -606,8 +606,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego VIII",
         local: "SAN PEDRO SOCHIAPAM",
-        rL: 0,
-        rV: 0,
+        rL: 23,
+        rV: 40,
         visita: "SAN JERÓNIMO NUCHITA",
         hora: "14:15 - 15:00"
       }
