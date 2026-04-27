@@ -5,8 +5,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego I",
         local: "COATECAS ALTAS",
-        rL: "",
-        rV: "",
+        rL: 0,
+        rV: 0,
         visita: "SANTA MARÍA CHIMALAPA",
         hora: "09:00 - 09:45"
       },
