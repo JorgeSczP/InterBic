@@ -683,8 +683,8 @@ export const torneoVolibolF = [
       {
         nombre: "Juego IV",
         local: "LLANO VÍBORA",
-        rL: 0,
-        rV: 0,
+        rL: 55,
+        rV: 61,
         visita: "SANTA MARÍA NUTÍO",
         hora: "11:15 - 12:00"
       },
@@ -701,7 +701,7 @@ export const torneoVolibolF = [
         local: "SAN PEDRO SOCHIAPAM",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IV",
+        visita: "LLANO VÍBORA",
         hora: "12:45 - 13:30"
       },
       {
@@ -709,7 +709,7 @@ export const torneoVolibolF = [
         local: "EL GACHUPÍN",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IV",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "13:30 - 14:15"
       },
       {
