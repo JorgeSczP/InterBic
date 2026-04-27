@@ -691,8 +691,8 @@ export const torneoVolibolF = [
       {
         nombre: "Juego V",
         local: "SAN JERÓNIMO NUCHITA",
-        rL: 0,
-        rV: 0,
+        rL: 50,
+        rV: 33,
         visita: "SAN MIGUEL CHIMALAPA",
         hora: "12:00 - 12:45"
       },
@@ -714,7 +714,7 @@ export const torneoVolibolF = [
       },
       {
         nombre: "Juego VIII",
-        local: "Ganador juego V",
+        local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
         visita: "Ganador juego VI",
