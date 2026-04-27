@@ -13,8 +13,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego II",
         local: "SAN LORENZO CUAUNECUILTITLA", 
-        rL: 0,
-        rV: 0,
+        rL: 31,
+        rV: 23,
         visita: "SAN AGUSTÍN TLACOTEPEC",
         hora: "09:45 - 10:30"
       },
@@ -36,15 +36,15 @@ export const torneoBasquetbolV = [
       },
       {
         nombre: "Juego V",
-        local: "Perdedor Juego I",
+        local: "SANTA MARÍA CHIMALAPA",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego II",
+        visita: "SAN AGUSTÍN TLACOTEPEC",
         hora: "12:00 - 12:45"
       },
       {
         nombre: "Juego VI",
-        local: "Ganador juego II",
+        local: "SAN LORENZO CUAUNECUILTITLA",
         rL: 0,
         rV: 0,
         visita: "Ganador juego III",
@@ -231,8 +231,8 @@ export const torneoBasquetbolF = [
       {
         nombre: "Juego II",
         local: "EL CARRIZAL",
-        rL: 0,
-        rV: 0,
+        rL: 15,
+        rV: 5,
         visita: "SANTIAGO NUYOÓ",
         hora: "09:45 - 10:30"
       },
@@ -246,7 +246,7 @@ export const torneoBasquetbolF = [
       },
       {
         nombre: "Juego IV",
-        local: "Ganador juego 2",
+        local: "EL CARRIZAL",
         rL: 0,
         rV: 0,
         visita: "SANTA MARÍA NUTIO",
@@ -254,10 +254,10 @@ export const torneoBasquetbolF = [
       },
       {
         nombre: "Juego V",
-        local: "Perdedor Juego I",
+        local: "NGU NIYA YANU ZACU KJUABITSIEN",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego II",
+        visita: "SANTIAGO NUYOÓ",
         hora: "12:00 - 12:45"
       },
       {
