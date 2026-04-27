@@ -727,7 +727,7 @@ export const torneoVolibolF = [
     juegos: [
       {
         nombre: "Juego IX",
-        local: "SAN JERÓNIMO NUCHITA",
+        local: "SAN PEDRO SOCHIAPAM",
         rL: 0,
         rV: 0,
         visita: "SANTA MARÍA NUTÍO",
