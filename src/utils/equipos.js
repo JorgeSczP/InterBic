@@ -21,16 +21,16 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego III",
         local: "SANTA MARÍA NUTÍO",
-        rL: 0,
-        rV: 0,
+        rL: 34,
+        rV: 11,
         visita: "SANTIAGO XOCHILTEPEC",
         hora: "10:30 - 11:15"
       },
       {
         nombre: "Juego IV",
         local: "COATECAS ALTAS",
-        rL: 0,
-        rV: 0,
+        rL: 19,
+        rV: 22,
         visita: "SANTA MARÍA TEMAXCALAPA",
         hora: "11:15 - 12:00"
       },
@@ -356,7 +356,7 @@ export const torneoFutbolV = [
       {
         nombre: "Juego IV",
         local: "AQUILES SERDAN",
-        rL: 0,
+        rL: 5,
         rV: 0,
         visita: "SAN PEDRO SOCHIAPAM",
         hora: "11:15 - 12:00"
@@ -382,12 +382,12 @@ export const torneoFutbolV = [
         local: "Ganador juego V",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego III",
+        visita: "SAN JERÓNIMO NUCHITA",
         hora: "13:30 - 14:15"
       },
       {
         nombre: "Juego VIII",
-        local: "Perdedor Juego IV",
+        local: "SAN PEDRO SOCHIAPAM",
         rL: 0,
         rV: 0,
         visita: "Perdedor Juego VI",
@@ -450,14 +450,14 @@ export const torneoFutbolF = [
         nombre: "Juego II",
         local: "NGU NIYA YANU ZACU KJUABITSIEN",
         rL: 0,
-        rV: 3,
+        rV: 5,
         visita: "SAN JOSÉ DE LAS FLORES",
         hora: "09:45 - 10:30"
       },
       {
         nombre: "Juego III",
         local: "SAN MARTÍN PERAS",
-        rL: 0,
+        rL: 7,
         rV: 0,
         visita: "LA BLANCA",
         hora: "10:30 - 11:15"
@@ -582,8 +582,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego V",
         local: "EL CARRIZAL",
-        rL: 0,
-        rV: 0,
+        rL: 21,
+        rV: 40,
         visita: "SAN PEDRO SOCHIAPAM",
         hora: "12:00 - 12:45"
       },
@@ -605,7 +605,7 @@ export const torneoVolibolV = [
       },
       {
         nombre: "Juego VIII",
-        local: "Ganador juego V",
+        local: "SAN PEDRO SOCHIAPAM",
         rL: 0,
         rV: 0,
         visita: "Ganador juego VI",
