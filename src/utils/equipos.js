@@ -465,7 +465,7 @@ export const torneoFutbolF = [
       {
         nombre: "Juego IV",
         local: "SAN JOSÉ DE LAS FLORES",
-        rL: 0,
+        rL: 1,
         rV: 0,
         visita: "EL CARRIZAL",
         hora: "11:15 - 12:00"
@@ -483,7 +483,7 @@ export const torneoFutbolF = [
         local: "LA BLANCA",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IV",
+        visita: "EL CARRIZAL",
         hora: "12:45 - 13:30"
       },
       {
@@ -491,7 +491,7 @@ export const torneoFutbolF = [
         local: "SAN MARTÍN PERAS",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IV",
+        visita: "SAN JOSÉ DE LAS FLORES",
         hora: "13:30 - 14:15"
       },
       {
