@@ -618,15 +618,15 @@ export const torneoVolibolV = [
     juegos: [
       {
         nombre: "Juego IX",
-        local: "Ganador juego VIII",
+        local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego VII",
+        visita: "LA BLANCA",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego VII",
+        local: "SAN VICENTE COATLÁN",
         rL: 0,
         rV: 0,
         visita: "Ganador juego IX",
@@ -715,8 +715,8 @@ export const torneoVolibolF = [
       {
         nombre: "Juego VIII",
         local: "SAN JERÓNIMO NUCHITA",
-        rL: 0,
-        rV: 0,
+        rL: 31,
+        rV: 50,
         visita: "SAN PEDRO SOCHIAPAM",
         hora: "14:15 - 15:00"
       }
@@ -727,15 +727,15 @@ export const torneoVolibolF = [
     juegos: [
       {
         nombre: "Juego IX",
-        local: "Ganador juego VIII",
+        local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego VII",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "08:00 - 08:45"
       },
       {
         nombre: "Juego X Final *",
-        local: "Ganador juego VII",
+        local: "EL GACHUPÍN",
         rL: 0,
         rV: 0,
         visita: "Ganador juego IX",
