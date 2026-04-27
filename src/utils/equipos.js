@@ -464,7 +464,7 @@ export const torneoFutbolF = [
       },
       {
         nombre: "Juego IV",
-        local: "Ganador juego 2",
+        local: "SAN JOSÉ DE LAS FLORES",
         rL: 0,
         rV: 0,
         visita: "EL CARRIZAL",
@@ -472,10 +472,10 @@ export const torneoFutbolF = [
       },
       {
         nombre: "Juego V",
-        local: "Perdedor Juego I",
+        local: "COATECAS ALTAS",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego II",
+        visita: "NGU NIYA YANU ZACU KJUABITSIEN",
         hora: "12:00 - 12:45"
       },
       {
@@ -592,15 +592,15 @@ export const torneoVolibolV = [
         local: "SAN JERÓNIMO NUCHITA",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IV",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "12:45 - 13:30"
       },
       {
         nombre: "Juego VII",
-        local: "Ganador juego III",
+        local: "LA BLANCA",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IV",
+        visita: "SAN VICENTE COATLÁN",
         hora: "13:30 - 14:15"
       },
       {
@@ -706,7 +706,7 @@ export const torneoVolibolF = [
       },
       {
         nombre: "Juego VII",
-        local: "Ganador juego III",
+        local: "EL GACHUPÍN",
         rL: 0,
         rV: 0,
         visita: "Ganador juego IV",
