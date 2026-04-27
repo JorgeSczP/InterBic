@@ -73,10 +73,10 @@ export const torneoBasquetbolV = [
     juegos: [
       {
         nombre: "Juego IX",
-        local: "Ganador juego IV",
+        local: "SANTA MARÍA TEMAXCALAPA",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego VI",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "08:00 - 08:45"
       },
       {
