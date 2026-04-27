@@ -37,8 +37,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego V",
         local: "SANTA MARÍA CHIMALAPA",
-        rL: 0,
-        rV: 0,
+        rL: 21,
+        rV: 48,
         visita: "SAN AGUSTÍN TLACOTEPEC",
         hora: "12:00 - 12:45"
       },
@@ -52,7 +52,7 @@ export const torneoBasquetbolV = [
       },
       {
         nombre: "Juego VII",
-        local: "Ganador juego V",
+        local: "SAN AGUSTÍN TLACOTEPEC",
         rL: 0,
         rV: 0,
         visita: "SANTIAGO XOCHILTEPEC",
@@ -247,16 +247,16 @@ export const torneoBasquetbolF = [
       {
         nombre: "Juego IV",
         local: "EL CARRIZAL",
-        rL: 0,
-        rV: 0,
+        rL: 23,
+        rV: 28,
         visita: "SANTA MARÍA NUTIO",
         hora: "11:15 - 12:00"
       },
       {
         nombre: "Juego V",
         local: "NGU NIYA YANU ZACU KJUABITSIEN",
-        rL: 0,
-        rV: 0,
+        rL: 7,
+        rV: 13,
         visita: "SANTIAGO NUYOÓ",
         hora: "12:00 - 12:45"
       },
@@ -265,7 +265,7 @@ export const torneoBasquetbolF = [
         local: "TEOTITLÁN DEL VALLE",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IV",
+        visita: "EL CARRIZA",
         hora: "12:45 - 13:30"
       },
       {
@@ -273,12 +273,12 @@ export const torneoBasquetbolF = [
         local: "SAN CRISTÓBAL LACHIRIOAG",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IV",
+        visita: "SANTA MARÍA NUTIO",
         hora: "13:30 - 14:15"
       },
       {
         nombre: "Juego VIII",
-        local: "Ganador juego V",
+        local: "SANTIAGO NUYOÓ",
         rL: 0,
         rV: 0,
         visita: "Ganador juego VI",
