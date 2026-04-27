@@ -45,8 +45,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego VI",
         local: "SAN LORENZO CUAUNECUILTITLA",
-        rL: 0,
-        rV: 0,
+        rL: 11,
+        rV: 34,
         visita: "SANTA MARÍA NUTÍO",
         hora: "12:45 - 13:30"
       },
@@ -63,7 +63,7 @@ export const torneoBasquetbolV = [
         local: "COATECAS ALTAS",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego VI",
+        visita: "SAN LORENZO CUAUNECUILTITLA",
         hora: "14:15 - 15:00"
       }
     ]
@@ -265,7 +265,7 @@ export const torneoBasquetbolF = [
         local: "TEOTITLÁN DEL VALLE",
         rL: 0,
         rV: 0,
-        visita: "EL CARRIZA",
+        visita: "EL CARRIZAL",
         hora: "12:45 - 13:30"
       },
       {
