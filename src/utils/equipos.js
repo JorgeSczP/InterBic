@@ -707,8 +707,8 @@ export const torneoVolibolF = [
       {
         nombre: "Juego VII",
         local: "EL GACHUPÍN",
-        rL: 0,
-        rV: 0,
+        rL: 50,
+        rV: 18,
         visita: "SANTA MARÍA NUTÍO",
         hora: "13:30 - 14:15"
       },
