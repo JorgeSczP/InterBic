@@ -619,8 +619,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego IX",
         local: "SAN JERÓNIMO NUCHITA",
-        rL: 0,
-        rV: 0,
+        rL: 50,
+        rV: 30,
         visita: "LA BLANCA",
         hora: "08:00 - 08:45"
       },
@@ -629,7 +629,7 @@ export const torneoVolibolV = [
         local: "SAN VICENTE COATLÁN",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IX",
+        visita: "SAN JERÓNIMO NUCHITA",
         hora: "04:45 - 09:30"
       },
       // {
