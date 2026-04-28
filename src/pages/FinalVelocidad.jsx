@@ -40,17 +40,17 @@ export default function FinalVelocidad() {
       {categoria === "varonil" ? (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
-            <CardFinal lugar={3} equipo="" />
+            <CardFinal lugar={1} equipo="San Pedro Tulixtlahuaca" est="JOSE ANGEL HERNANDEZ DAMIAN"/>
+            <CardFinal lugar={2} equipo="San Jerónimo Nuchita" est="JOSE IGNACIO APARICIO APARICIO"/>
+            <CardFinal lugar={3} equipo=" El Gachupín" est="MARCELO LOPEZ RAMIREZ"/>
           </div>
         </section>
       ) : (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
-            <CardFinal lugar={3} equipo="" />
+            <CardFinal lugar={1} equipo="SANTIAGO NUYOÓ" est="YARITZA RUBI SÁNCHEZ HERNÁNDEZ"/>
+            <CardFinal lugar={2} equipo="NGU NIYA YANU ZACU KJUABITSIEN" est="NANCY JOCELYNE BETANZO MORENO"/>
+            <CardFinal lugar={3} equipo="EL CARRIZAL" est="JENNIFER HERNANDEZ MERINO"/>
           </div>
         </section>
       )}

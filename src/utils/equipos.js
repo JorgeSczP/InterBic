@@ -292,8 +292,8 @@ export const torneoBasquetbolF = [
       {
         nombre: "Juego IX",
         local: "EL CARRIZAL",
-        rL: 0,
-        rV: 0,
+        rL: 14,
+        rV: 15,
         visita: "SAN CRISTÓBAL LACHIRIOAG",
         hora: "08:00 - 08:45"
       },
@@ -302,7 +302,7 @@ export const torneoBasquetbolF = [
         local: "SANTA MARÍA NUTIO",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IX",
+        visita: "SAN CRISTÓBAL LACHIRIOAG",
         hora: "04:45 - 09:30"
       },
       // {
@@ -409,14 +409,14 @@ export const torneoFutbolV = [
       {
         nombre: "Juego X",
         local: "SAN JERÓNIMO NUCHITA",
-        rL: 0,
-        rV: 0,
+        rL: 1,
+        rV: 3,
         visita: "EL CARRIZAL",
         hora: "04:45 - 09:30"
       },
       {
         nombre: "Juego XI",
-        local: "Ganador juego X",
+        local: "EL CARRIZAL",
         rL: 0,
         rV: 0,
         visita: "AQUILES SERDA",

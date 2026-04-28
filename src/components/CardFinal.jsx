@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function CardFinal({ equipo, lugar }) {
+export default function CardFinal({ equipo, lugar, est }) {
   const colores = {
     1: "bg-yellow-400 text-black",   // Oro
     2: "bg-gray-300 text-black",     // Plata
@@ -14,9 +14,12 @@ export default function CardFinal({ equipo, lugar }) {
           colores[lugar] || "bg-gray-800 text-white"
         }`}
       >
-        <div className="w-full h-full flex items-center justify-center relative z-10">
+        <div className="w-full h-full flex-col flex items-center justify-center relative z-10">
           <span className="text-[10px] sm:text-2xl font-black italic tracking-widest">
             {equipo}
+          </span>
+          <span className="text-[6px] sm:text-sm font-semibold italic tracking-widest">
+            {est}
           </span>
         </div>
       </div>

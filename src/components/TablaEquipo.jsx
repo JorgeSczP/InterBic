@@ -45,11 +45,11 @@ export default function TablaEquipo({ equipos, id }) {
       {openModal && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
-          onClick={() => setOpenModal(false)}
+          // onClick={() => setOpenModal(false)}
         >
           <div
             className="w-[95%] h-[80%] rounded-xl shadow-lg p-6 relative overflow-hidden"
-            onClick={() => setOpenModal(false)}
+            // onClick={() => setOpenModal(false)}
           >
             <button
               onClick={() => setOpenModal(false)}
