@@ -298,10 +298,10 @@ export const torneoBasquetbolF = [
         hora: "08:00 - 08:45"
       },
       {
-        nombre: "Juego X Final *",
+        nombre: "Juego X Final",
         local: "SANTA MARÍA NUTIO",
-        rL: 0,
-        rV: 0,
+        rL: 33,
+        rV: 26,
         visita: "SAN CRISTÓBAL LACHIRIOAG",
         hora: "04:45 - 09:30"
       },

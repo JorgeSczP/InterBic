@@ -49,8 +49,8 @@ export default function FinalBasquetbol() {
       ) : (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
+            <CardFinal lugar={1} equipo="SANTA MARÍA NUTIO" />
+            <CardFinal lugar={2} equipo="SAN CRISTÓBAL LACHIRIOAG" />
             <CardFinal lugar={3} equipo="EL CARRIZAL" />
           </div>
         </section>
