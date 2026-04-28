@@ -49,7 +49,7 @@ export default function FinalFutbl() {
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
             <CardFinal lugar={1} equipo="SAN MARTÍN PERAS" />
-            <CardFinal lugar={2} equipo="SAN JOSÉ DE LAS FLORES" />
+            <CardFinal lugar={2} equipo="SAN PEDRO TULIXTLAHUACA" />
             <CardFinal lugar={3} equipo="EL CARRIZAL" />
           </div>
         </section>

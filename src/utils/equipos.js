@@ -451,7 +451,7 @@ export const torneoFutbolF = [
         local: "NGU NIYA YANU ZACU KJUABITSIEN",
         rL: 0,
         rV: 5,
-        visita: "SAN JOSÉ DE LAS FLORES",
+        visita: "SAN PEDRO TULIXTLAHUACA",
         hora: "09:45 - 10:30"
       },
       {
@@ -464,7 +464,7 @@ export const torneoFutbolF = [
       },
       {
         nombre: "Juego IV",
-        local: "SAN JOSÉ DE LAS FLORES",
+        local: "SAN PEDRO TULIXTLAHUACA",
         rL: 1,
         rV: 0,
         visita: "EL CARRIZAL",
@@ -491,7 +491,7 @@ export const torneoFutbolF = [
         local: "SAN MARTÍN PERAS",
         rL: 1,
         rV: 0,
-        visita: "SAN JOSÉ DE LAS FLORES",
+        visita: "SAN PEDRO TULIXTLAHUACA",
         hora: "13:30 - 14:15"
       },
       {
@@ -512,7 +512,7 @@ export const torneoFutbolF = [
         local: "EL CARRIZAL",
         rL: 1,
         rV: 3,
-        visita: "SAN JOSÉ DE LAS FLORES",
+        visita: "SAN PEDRO TULIXTLAHUACA",
         hora: "08:00 - 08:45"
       },
       {
@@ -520,7 +520,7 @@ export const torneoFutbolF = [
         local: "SAN MARTÍN PERAS",
         rL: 0,
         rV: 1,
-        visita: "SAN JOSÉ DE LAS FLORES",
+        visita: "SAN PEDRO TULIXTLAHUACA",
         hora: "04:45 - 09:30"
       },
       {
@@ -528,7 +528,7 @@ export const torneoFutbolF = [
         local: "SAN MARTÍN PERAS",
         rL: 2,
         rV: 0,
-        visita: "SAN JOSÉ DE LAS FLORES",
+        visita: "SAN PEDRO TULIXTLAHUACA",
         hora: "10:45 - 11-30"
       },
       // {
