@@ -90,8 +90,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego XI",
         local: "COATECAS ALTAS",
-        rL: 0,
-        rV: 0,
+        rL: 20,
+        rV: 19,
         visita: "SANTA MARÍA NUTÍO",
         hora: "10:00 - 10:45"
       },
@@ -100,7 +100,7 @@ export const torneoBasquetbolV = [
         local: "SANTA MARÍA TEMAXCALAPA",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego XI",
+        visita: "COATECAS ALTAS",
         hora: "10:45 - 11:30"
       }
     ]

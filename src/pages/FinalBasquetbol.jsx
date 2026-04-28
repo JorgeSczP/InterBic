@@ -43,7 +43,7 @@ export default function FinalBasquetbol() {
           <div className="space-y-4 ">
             <CardFinal lugar={1} equipo="" />
             <CardFinal lugar={2} equipo="" />
-            <CardFinal lugar={3} equipo="" />
+            <CardFinal lugar={3} equipo="SANTA MARÍA NUTÍO" />
           </div>
         </section>
       ) : (
