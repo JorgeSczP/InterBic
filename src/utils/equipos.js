@@ -526,7 +526,7 @@ export const torneoFutbolF = [
       {
         nombre: "Juego XI",
         local: "SAN MARTÍN PERAS",
-        rL: 0,
+        rL: 2,
         rV: 0,
         visita: "SAN JOSÉ DE LAS FLORES",
         hora: "10:45 - 11-30"
