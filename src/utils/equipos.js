@@ -418,7 +418,7 @@ export const torneoFutbolV = [
         nombre: "Juego XI",
         local: "EL CARRIZAL",
         rL: 0,
-        rV: 0,
+        rV: 4,
         visita: "AQUILES SERDAN",
         hora: "10:00 - 10:45"
       },
@@ -427,7 +427,7 @@ export const torneoFutbolV = [
         local: "TEOTITLÁN DEL VALLE",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego XI",
+        visita: "AQUILES SERDAN",
         hora: "10:45 - 11:30"
       }
     ]
