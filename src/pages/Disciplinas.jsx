@@ -96,6 +96,7 @@ export default function () {
             equipos={equipos}
             imagen="/IMG/fase1.webp"
             url="/academica/equipos"
+            urlR="/final/academico"
           />
         </div>
       </div>

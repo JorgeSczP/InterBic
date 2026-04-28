@@ -23,6 +23,7 @@ import FinalFutbl from "../pages/FinalFutbl";
 import FinalVoleibol from "../pages/FinalVoleibol";
 import FinalVelocidad from "../pages/FinalVelocidad";
 import FinalResitencia from "../pages/FinalResitencia";
+import FinalAcademica from "../pages/FinalAcademica";
 
 export default function AppRoutes() {
   return (
@@ -185,6 +186,14 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <FinalResitencia />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/final/academico"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FinalAcademica />
           </PrivateRoute>
         }
       />
