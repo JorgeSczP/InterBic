@@ -516,21 +516,21 @@ export const torneoFutbolF = [
         hora: "08:00 - 08:45"
       },
       {
-        nombre: "Juego X Final *",
+        nombre: "Juego X",
+        local: "SAN MARTÍN PERAS",
+        rL: 0,
+        rV: 1,
+        visita: "SAN JOSÉ DE LAS FLORES",
+        hora: "04:45 - 09:30"
+      },
+      {
+        nombre: "Juego XI",
         local: "SAN MARTÍN PERAS",
         rL: 0,
         rV: 0,
         visita: "SAN JOSÉ DE LAS FLORES",
-        hora: "04:45 - 09:30"
+        hora: "10:45 - 11-30"
       },
-      // {
-      //   nombre: "Juego XI",
-      //   local: "",
-      //   rL: 0,
-      //   rV: 0,
-      //   visita: "",
-      //   hora: "10:00 - 10:45"
-      // },
       // {
       //   nombre: "Juego XII Final *",
       //   local: "",
