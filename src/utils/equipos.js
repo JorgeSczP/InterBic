@@ -82,14 +82,14 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego X",
         local: "SAN AGUSTÍN TLACOTEPEC",
-        rL: 0,
-        rV: 0,
+        rL: 7,
+        rV: 33,
         visita: "COATECAS ALTAS",
         hora: "04:45 - 09:30"
       },
       {
         nombre: "Juego XI",
-        local: "Ganador juego X",
+        local: "COATECAS ALTAS",
         rL: 0,
         rV: 0,
         visita: "SANTA MARÍA NUTÍO",
