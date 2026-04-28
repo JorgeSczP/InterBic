@@ -98,8 +98,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego XII Final *",
         local: "SANTA MARÍA TEMAXCALAPA",
-        rL: 0,
-        rV: 0,
+        rL: 23,
+        rV: 30,
         visita: "COATECAS ALTAS",
         hora: "10:45 - 11:30"
       }
@@ -635,8 +635,8 @@ export const torneoVolibolV = [
       {
         nombre: "Juego XI Final",
         local: "SAN VICENTE COATLÁN",
-        rL: 0,
-        rV: 0,
+        rL: 42,
+        rV: 54,
         visita: "SAN JERÓNIMO NUCHITA",
         hora: "04:45 - 09:30"
       },

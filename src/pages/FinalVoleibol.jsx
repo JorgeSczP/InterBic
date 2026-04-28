@@ -40,8 +40,8 @@ export default function FinalVoleibol() {
       {categoria === "varonil" ? (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
+            <CardFinal lugar={1} equipo="SAN JERÓNIMO NUCHITA" />
+            <CardFinal lugar={2} equipo="SAN VICENTE COATLÁN" />
             <CardFinal lugar={3} equipo="LA BLANCA" />
           </div>
         </section>
