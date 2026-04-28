@@ -74,8 +74,8 @@ export const torneoBasquetbolV = [
       {
         nombre: "Juego IX",
         local: "SANTA MARÍA TEMAXCALAPA",
-        rL: 0,
-        rV: 0,
+        rL: 26,
+        rV: 7,
         visita: "SANTA MARÍA NUTÍO",
         hora: "08:00 - 08:45"
       },
@@ -92,12 +92,12 @@ export const torneoBasquetbolV = [
         local: "Ganador juego X",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IX",
+        visita: "SANTA MARÍA NUTÍO",
         hora: "10:00 - 10:45"
       },
       {
         nombre: "Juego XII Final *",
-        local: "Ganador juego IX",
+        local: "SANTA MARÍA TEMAXCALAPA",
         rL: 0,
         rV: 0,
         visita: "Ganador juego XI",
@@ -728,8 +728,8 @@ export const torneoVolibolF = [
       {
         nombre: "Juego IX",
         local: "SAN PEDRO SOCHIAPAM",
-        rL: 0,
-        rV: 0,
+        rL: 50,
+        rV: 29,
         visita: "SANTA MARÍA NUTÍO",
         hora: "08:00 - 08:45"
       },
@@ -738,7 +738,7 @@ export const torneoVolibolF = [
         local: "EL GACHUPÍN",
         rL: 0,
         rV: 0,
-        visita: "Ganador juego IX",
+        visita: "SAN PEDRO SOCHIAPAM",
         hora: "04:45 - 09:30"
       },
       // {
