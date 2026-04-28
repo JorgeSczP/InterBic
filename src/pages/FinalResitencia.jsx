@@ -40,17 +40,17 @@ export default function FinalResitencia() {
       {categoria === "varonil" ? (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
-            <CardFinal lugar={3} equipo="" />
+            <CardFinal lugar={1} equipo="Santos Reyes Pápalo" est="JUAN DIEGO GARCÍA VILLEGAS"/>
+            <CardFinal lugar={2} equipo="San Andrés Solaga" est="EDER MENDOZA PEREZ"/>
+            <CardFinal lugar={3} equipo="El Gachupín" est="LUIS ENRIQUE PEREZ PEREZ"/>
           </div>
         </section>
       ) : (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
-            <CardFinal lugar={3} equipo="" />
+            <CardFinal lugar={1} equipo="Santos Reyes Pápalo" est="LIDIA MARTINEZ CALLEJA" />
+            <CardFinal lugar={2} equipo="El Gachupín" est="MARLEN RAMIREZ GONZALEZ"/>
+            <CardFinal lugar={3} equipo="El Carrizal" est="ELIZAIDA ORTIZ MERINO"/>
           </div>
         </section>
       )}

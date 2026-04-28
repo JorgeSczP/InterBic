@@ -419,7 +419,7 @@ export const torneoFutbolV = [
         local: "EL CARRIZAL",
         rL: 0,
         rV: 0,
-        visita: "AQUILES SERDA",
+        visita: "AQUILES SERDAN",
         hora: "10:00 - 10:45"
       },
       {
