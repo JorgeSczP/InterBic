@@ -18,6 +18,11 @@ import TorneoVolibol from "../pages/TorneoVolibol";
 import EstudiantesPorDeporte from "../pages/EstudiantesPorDeporte";
 import TorneoVelocidad from "../pages/TorneoVelocidad";
 import Programacion from "../pages/Programacion";
+import FinalBasquetbol from "../pages/FinalBasquetbol";
+import FinalFutbl from "../pages/FinalFutbl";
+import FinalVoleibol from "../pages/FinalVoleibol";
+import FinalVelocidad from "../pages/FinalVelocidad";
+import FinalResitencia from "../pages/FinalResitencia";
 
 export default function AppRoutes() {
   return (
@@ -140,6 +145,46 @@ export default function AppRoutes() {
         element={
           <PrivateRoute acceso="noAcceso">
             <TorneoVelocidad />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/final/basquetbol"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FinalBasquetbol />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/final/futbol"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FinalFutbl />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/final/voleibol"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FinalVoleibol />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/final/velocidad"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FinalVelocidad />
+          </PrivateRoute>
+        }
+      />
+      <Route
+        path="/final/resistencia"
+        element={
+          <PrivateRoute acceso="noAcceso">
+            <FinalResitencia />
           </PrivateRoute>
         }
       />

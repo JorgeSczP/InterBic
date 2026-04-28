@@ -45,6 +45,7 @@ export default function () {
             imagen="/IMG/basquet.webp"
             url="/basquetbol/equipos"
             urlRol="/basquetbol/torneo"
+            urlR="/final/basquetbol"
           />
           <TarjetaDisciplina
             disciplina="Futbol"
@@ -52,6 +53,7 @@ export default function () {
             imagen="/IMG/fut.webp"
             url="/futbol/equipos"
             urlRol="/futbol/torneo"
+            urlR="/final/futbol"
           />
 
           <TarjetaDisciplina
@@ -60,6 +62,7 @@ export default function () {
             imagen="/IMG/deportiva.webp"
             url="/volibol/equipos"
             urlRol="/volibol/torneo"
+            urlR="/final/voleibol"
           />
 
           <TarjetaDisciplina
@@ -67,6 +70,7 @@ export default function () {
             equipos={equipos}
             imagen="/IMG/resistencia.webp"
             url="/resistencia/equipos"
+            urlR="/final/resistencia"
           />
 
           <TarjetaDisciplina
@@ -75,6 +79,7 @@ export default function () {
             imagen="/IMG/velocidad.webp"
             url="/velocidad/equipos"
             urlRol="/velocidad/torneo"
+            urlR="/final/velocidad"
           />
         </div>
 
