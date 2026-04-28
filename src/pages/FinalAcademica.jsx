@@ -12,9 +12,9 @@ export default function FinalAcademica() {
 
       <section className="mb-24 max-w-7xl mx-auto px-6">
         <div className="space-y-4 ">
-          <CardFinal lugar={1} equipo="" />
-          <CardFinal lugar={2} equipo="" />
-          <CardFinal lugar={3} equipo="" />
+          <CardFinal lugar={1} equipo="SANTIAGO LALOPA" />
+          <CardFinal lugar={2} equipo="EL CARRIZAL" />
+          <CardFinal lugar={3} equipo="SAN LORENZO CUAUNECUILTITLA" />
         </div>
       </section>
     </section>
