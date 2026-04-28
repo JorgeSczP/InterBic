@@ -401,8 +401,8 @@ export const torneoFutbolV = [
       {
         nombre: "Juego IX",
         local: "AQUILES SERDAN",
-        rL: 0,
-        rV: 0,
+        rL: 3,
+        rV: 6,
         visita: "TEOTITLÁN DEL VALLE",
         hora: "08:00 - 08:45"
       },
@@ -419,12 +419,12 @@ export const torneoFutbolV = [
         local: "Ganador juego X",
         rL: 0,
         rV: 0,
-        visita: "Perdedor Juego IX",
+        visita: "AQUILES SERDA",
         hora: "10:00 - 10:45"
       },
       {
         nombre: "Juego XII Final *",
-        local: "Ganador juego IX",
+        local: "TEOTITLÁN DEL VALLE",
         rL: 0,
         rV: 0,
         visita: "Ganador juego XI",
