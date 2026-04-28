@@ -423,10 +423,10 @@ export const torneoFutbolV = [
         hora: "10:00 - 10:45"
       },
       {
-        nombre: "Juego XII Final *",
+        nombre: "Juego XII Final",
         local: "TEOTITLÁN DEL VALLE",
-        rL: 0,
-        rV: 0,
+        rL: 7,
+        rV: 3,
         visita: "AQUILES SERDAN",
         hora: "10:45 - 11:30"
       }
@@ -625,7 +625,15 @@ export const torneoVolibolV = [
         hora: "08:00 - 08:45"
       },
       {
-        nombre: "Juego X Final *",
+        nombre: "Juego X",
+        local: "SAN VICENTE COATLÁN",
+        rL: 47,
+        rV: 63,
+        visita: "SAN JERÓNIMO NUCHITA",
+        hora: "04:45 - 09:30"
+      },
+      {
+        nombre: "Juego XI Final",
         local: "SAN VICENTE COATLÁN",
         rL: 0,
         rV: 0,

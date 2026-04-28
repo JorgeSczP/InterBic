@@ -40,8 +40,8 @@ export default function FinalFutbl() {
       {categoria === "varonil" ? (
         <section className="mb-24 max-w-7xl mx-auto px-6">
           <div className="space-y-4 ">
-            <CardFinal lugar={1} equipo="" />
-            <CardFinal lugar={2} equipo="" />
+            <CardFinal lugar={1} equipo="TEOTITLÁN DEL VALLE" />
+            <CardFinal lugar={2} equipo="AQUILES SERDAN" />
             <CardFinal lugar={3} equipo="EL CARRIZAL" />
           </div>
         </section>
